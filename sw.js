@@ -1,5 +1,5 @@
-// Offline support: app files are cached; news data is fetched fresh and falls back to the last copy.
-const SHELL = 'pulse-shell-v2';
+﻿// Offline support: app files are cached; news data is fetched fresh and falls back to the last copy.
+const SHELL = 'pulse-shell-v3';
 const DATA = 'pulse-data';
 const FILES = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/art.js', 'manifest.webmanifest', 'icons/apple-touch-icon.png'];
 

@@ -189,21 +189,20 @@ function safeSvg(src) {
 
 // One visual per story: a photo, an explainer illustration, or the icon.
 // The cover story's photo is already on the cover, so below it gets the illustration or icon instead.
-function storyVisual(item, isLead) {
+function storyVisual(item) {
+  // photos always run big at full width; icons always sit small on the right
   const illus = safeSvg(item.illustration);
   const photo = !item.isCover && safeUrl(item.image);
-  if (illus) return { wide: `<div class="media illus-panel">${illus}</div>`, thumb: '' };
-  if (photo && isLead) {
+  if (photo) {
     const credit = item.credit ? `<p class="credit">${esc(item.credit)}</p>` : '';
     return { wide: media(item, 'media') + credit, thumb: '' };
   }
-  if (photo) return { wide: '', thumb: media(item, 'thumb') };
-  if (isLead) return { wide: `<div class="media art-panel">${art(item.art)}</div>`, thumb: '' };
+  if (illus) return { wide: `<div class="media illus-panel">${illus}</div>`, thumb: '' };
   return { wide: '', thumb: `<div class="thumb art-panel">${art(item.art)}</div>` };
 }
 
 function story(item, isLead) {
-  const v = storyVisual(item, isLead);
+  const v = storyVisual(item);
   return `
     <article class="story${v.wide ? ' has-wide' : ''}" id="story-${item.n}">
       ${v.wide}

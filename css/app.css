@@ -304,10 +304,13 @@ img { display: block; max-width: 100%; }
 .group-intro { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--text-2); margin: 0 0 16px; }
 
 /* numbered stories */
-.story { padding: 22px 0; border-top: 1px solid var(--rule); scroll-margin-top: 72px; }
-.rule-head + .story, .group-intro + .story { border-top: 0; padding-top: 6px; }
+/* every story: the same hairline above it and the same space on both sides of that line.
+   Bottom padding is smaller because the 44px link already carries ~12px of space under its text. */
+.story { padding: 28px 0 16px; border-top: 1px solid var(--rule); scroll-margin-top: 72px; }
+.story:not(:has(.open)) { padding-bottom: 28px; }
+.rule-head + .story, .group-intro + .story { border-top: 0; padding-top: 4px; }
 .story-head { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 12px; align-items: start; margin-bottom: 12px; }
-.story-head.with-thumb { grid-template-columns: 48px minmax(0, 1fr) 64px; }
+.story-head.with-thumb { grid-template-columns: 48px minmax(0, 1fr) 80px; }
 .num { font-size: 40px; line-height: .84; color: var(--hi); padding-top: 2px; }
 .story h3 { font-size: 19px; line-height: 1.25; font-weight: 600; margin: 0 0 4px; }
 .has-wide h3 { font-size: 24px; line-height: 1.18; letter-spacing: -.01em; }
@@ -328,8 +331,8 @@ img { display: block; max-width: 100%; }
 .credit { font-size: 13px; color: var(--text-3); margin: -10px 0 12px; }
 
 .thumb {
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   border-radius: var(--r-thumb);
   overflow: hidden;
   background: var(--surface);
