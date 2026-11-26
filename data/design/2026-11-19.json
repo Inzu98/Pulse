@@ -1,0 +1,71 @@
+{
+  "section": "design",
+  "sample": true,
+  "edition": "2026-11-19",
+  "brief": [
+    "Sample line: a rebrand everyone is *talking about*.",
+    "Sample line: a new feature in your favorite tool.",
+    "Sample line: a festival with open entries."
+  ],
+  "groups": [
+    {
+      "name": "Branding",
+      "items": [
+        {
+          "title": "Sample headline: A sportswear brand refreshes its identity",
+          "summary": "Sample first paragraph: What changed in the logo, type and color, and why it works. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "swatches",
+          "source": "It’s Nice That",
+          "date": "2026-11-20",
+          "url": "https://example.com/",
+          "image": "https://picsum.photos/seed/pulse-d1/1200/750",
+          "credit": "Photo: sample image"
+        },
+        {
+          "title": "Sample headline: A museum gets a new visual system",
+          "summary": "Sample first paragraph: The idea behind the grid and the typeface. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "grid",
+          "source": "Creative Review",
+          "date": "2026-11-19",
+          "url": "https://example.com/"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "items": [
+        {
+          "title": "Sample headline: A design app adds smarter vector editing",
+          "summary": "Sample first paragraph: What it does and how it could speed up your work. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "bezier",
+          "source": "Figma blog",
+          "date": "2026-11-18",
+          "url": "https://example.com/",
+          "image": "https://picsum.photos/seed/pulse-d2/1200/750",
+          "credit": "Photo: sample image"
+        },
+        {
+          "title": "Sample headline: New free typeface released",
+          "summary": "Sample first paragraph: Where to download it and what it is good for. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "brush",
+          "source": "Fontshare",
+          "date": "2026-11-17",
+          "url": "https://example.com/"
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "items": [
+        {
+          "title": "Sample headline: Poster festival opens entries",
+          "summary": "Sample first paragraph: Dates, deadline and how to enter from Colombia. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "frame",
+          "source": "Festival site",
+          "date": "2026-11-21",
+          "url": "https://example.com/"
+        }
+      ]
+    }
+  ]
+}

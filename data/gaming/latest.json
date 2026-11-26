@@ -1,0 +1,65 @@
+{
+  "section": "gaming",
+  "sample": true,
+  "edition": "2026-11-24",
+  "brief": [
+    "Sample line: the *biggest release* of the week.",
+    "Sample line: a console price change.",
+    "Sample line: an indie hit worth trying."
+  ],
+  "groups": [
+    {
+      "name": "Last week",
+      "items": [
+        {
+          "title": "Sample headline: A big open-world sequel gets a date",
+          "summary": "Sample first paragraph: Two lines on the trailer and the release window. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "controller",
+          "source": "IGN",
+          "date": "2026-11-20",
+          "url": "https://example.com/",
+          "image": "https://picsum.photos/seed/pulse-g1/1200/750",
+          "credit": "Photo: sample image"
+        },
+        {
+          "title": "Sample headline: Handheld update adds new features",
+          "summary": "Sample first paragraph: What changes for players and when it arrives. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "handheld",
+          "source": "The Verge",
+          "date": "2026-11-19",
+          "url": "https://example.com/"
+        },
+        {
+          "title": "Sample headline: Esports final breaks viewing records",
+          "summary": "Sample first paragraph: Who won and why people tuned in. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "trophy",
+          "source": "Polygon",
+          "date": "2026-11-18",
+          "url": "https://example.com/"
+        }
+      ]
+    },
+    {
+      "name": "Coming soon",
+      "intro": "Release dates for the next three months.",
+      "items": [
+        {
+          "title": "Sample headline: Co-op shooter launches in December",
+          "summary": "Sample first paragraph: Platforms, price and the one feature people are excited about. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "calendar",
+          "source": "GameSpot",
+          "date": "2026-11-21",
+          "url": "https://example.com/"
+        },
+        {
+          "title": "Sample headline: VR puzzle game arrives in January",
+          "summary": "Sample first paragraph: A short note on why it stands out. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
+          "art": "headset",
+          "source": "UploadVR",
+          "date": "2026-11-21",
+          "url": "https://example.com/"
+        }
+      ]
+    }
+  ]
+}
