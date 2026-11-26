@@ -1,7 +1,7 @@
 ﻿// Offline support: app files are cached; news data is fetched fresh and falls back to the last copy.
-const SHELL = 'pulse-shell-v7';
+const SHELL = 'pulse-shell-v8';
 const DATA = 'pulse-data';
-const FILES = ['./', 'index.html', 'css/app.css?v=7', 'js/app.js?v=7', 'js/art.js?v=7', 'manifest.webmanifest', 'icons/apple-touch-icon.png'];
+const FILES = ['./', 'index.html', 'css/app.css?v=8', 'js/app.js?v=8', 'js/art.js?v=8', 'manifest.webmanifest', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));

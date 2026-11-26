@@ -84,15 +84,72 @@ Never edit anything outside `data/<id>/`.
 - Only `https://` links and images are shown. If an image fails to load, the app shows the illustration instead.
 - Never set `"sample": true` in a real edition.
 
-## Illustration keys (`art`)
+## Icons (`art`)
 
-World: `globe` `ballot` `chartUp` `chartDown` `coin` `court` `scale` `shield` `rings` `flag` `megaphone` `city` `pin` `plane` `ship` `bolt` `drop` `leaf` `wave` `pulse` `rocket` `newspaper` `calendar` `eye` `play`
-Gaming: `controller` `handheld` `headset` `trophy` `joystick` `pixel`
-Reading: `book` `openbook` `bulb` `doc` `magazine`
-Design: `bezier` `swatches` `grid` `brush` `frame` `cursor` `star` `camera`
-AI: `nodes` `chip` `spark` `wand` `chat` `robot` `prompt` `orbit`
+The icon must show what the story is about, literally. Ask: would a reader guess the story from the icon alone? A Witcher game is a `sword`, not a `controller`; an AI sports commentator is a `mic`, not a `headset`; layoffs are `people`; servers shutting down is `server`. Don't pick an icon just because it belongs to the section. If no key fits, use the closest literal one or add an `illustration`.
 
-Unknown keys fall back to `newspaper`.
+| Key | Shows | Use for |
+|---|---|---|
+| `globe` | globe | world affairs, international deals |
+| `ballot` | ballot box | elections, votes, referendums |
+| `chartUp` / `chartDown` | rising / falling chart | growth, sales, prices up / down |
+| `coin` | coin stack | money, budgets, earnings, prices |
+| `court` | court building | courts, rulings, trials |
+| `scale` | balance scale | law, justice, fairness, regulation |
+| `shield` | shield with check | security, police, safety, protection |
+| `rings` | linked rings | deals, alliances, mergers |
+| `flag` | flag | nations, sovereignty, territory |
+| `megaphone` | megaphone | announcements, protests, campaigns |
+| `city` | buildings | cities, offices, studios, local news |
+| `pin` | map pin | places, borders, travel |
+| `plane` | plane | flights, air strikes, aviation |
+| `ship` | ship | trade, tariffs, shipping, ports |
+| `bolt` | lightning bolt | energy, power, sudden events |
+| `drop` | water drop | water, oil, weather |
+| `leaf` | leaf | climate, environment, nature |
+| `wave` | waves | sea, audio, music |
+| `pulse` | heartbeat | health, medicine |
+| `rocket` | rocket | launches, space, startups |
+| `newspaper` | newspaper | media, journalism |
+| `calendar` | calendar with a checked date | events, dates, schedules, festivals |
+| `eye` | eye | surveillance, privacy, viewing |
+| `play` | video player | videos, trailers, showcases, streams |
+| `doc` | document | reports, studies, papers, laws |
+| `people` | group of people | jobs, layoffs, communities, users |
+| `phone` | smartphone | mobile apps and games |
+| `mic` | microphone | voice, commentary, podcasts, interviews |
+| `server` | server rack | servers, shutdowns, cloud, outages |
+| `tag` | price tag | prices, sales, discounts |
+| `controller` | gamepad | console games in general |
+| `handheld` | handheld console | Switch, Steam Deck, handhelds |
+| `headset` | VR goggles | VR and AR |
+| `headphones` | headphones | gaming audio, music |
+| `trophy` | trophy | esports, awards, winners |
+| `joystick` | arcade stick | retro and arcade games |
+| `pixel` | pixel creature | retro, indie, pixel-art games |
+| `sword` | sword | fantasy, RPG, action games |
+| `book` / `openbook` | book | books, reading |
+| `bulb` | light bulb | ideas, tips, learning |
+| `magazine` | magazine | magazines, essays, issues |
+| `bezier` | pen-tool curve | vector design, logos, type |
+| `swatches` | color swatches | color, palettes, brand systems |
+| `grid` | layout grid | layout, editorial, UI systems |
+| `brush` | brush | illustration, painting, art |
+| `frame` | framed picture | images, posters, galleries |
+| `cursor` | selection arrow | design software, tools, UI |
+| `star` | star | awards, standout work |
+| `camera` | camera | photography |
+| `nodes` | connected nodes | networks, AI models |
+| `chip` | chip | hardware, chips, compute |
+| `spark` | sparkle | generative AI features |
+| `wand` | magic wand | AI tools that create or edit |
+| `chat` | chat bubble | chatbots, assistants, messaging |
+| `robot` | robot | agents, automation, robots |
+| `prompt` | terminal | prompts, code, workflows |
+| `orbit` | orbit | science, research, platforms |
+| `brain` | tech brain | AI thinking, intelligence |
+
+Unknown keys fall back to `newspaper`. Illustrations follow the same system as the icons: line art plus exactly one accent circle (`class="f"`, r 11) drawn first and placed on a meaningful point of the drawing.
 
 ## Local preview
 
