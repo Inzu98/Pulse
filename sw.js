@@ -1,7 +1,7 @@
 ﻿// Offline support: app files are cached; news data is fetched fresh and falls back to the last copy.
-const SHELL = 'pulse-shell-v6';
+const SHELL = 'pulse-shell-v7';
 const DATA = 'pulse-data';
-const FILES = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/art.js', 'manifest.webmanifest', 'icons/apple-touch-icon.png'];
+const FILES = ['./', 'index.html', 'css/app.css?v=7', 'js/app.js?v=7', 'js/art.js?v=7', 'manifest.webmanifest', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
@@ -21,7 +21,8 @@ self.addEventListener('fetch', e => {
   if (url.origin === location.origin) {
     const bucket = url.pathname.includes('/data/') ? DATA : SHELL;
     e.respondWith(
-      fetch(e.request).then(res => {
+      // cache: 'no-cache' skips the browser's 10-minute HTTP cache, so a new release shows on the next open
+      fetch(e.request.url, { cache: 'no-cache', credentials: 'same-origin' }).then(res => {
         const copy = res.clone();
         caches.open(bucket).then(c => c.put(e.request, copy));
         return res;
