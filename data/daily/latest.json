@@ -60,7 +60,9 @@
           "source": "Al Jazeera (citing Reuters)",
           "date": "2026-11-26",
           "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
-          "art": "plane"
+          "art": "plane",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-06-15T152617Z_1851412768_RC2CQ49SS6FD_RTRMADP_3_RUSSIA-AIRPLANE-CRASH-1795653630.jpg?resize=770%2C513&quality=80",
+          "credit": "Photo: Reuters (file photo of a Tu-22M3 bomber)"
         }
       ]
     },
@@ -73,7 +75,9 @@
           "source": "Al Jazeera",
           "date": "2026-11-25",
           "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case",
-          "art": "court"
+          "art": "court",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b072e2c3fac-1795632684.jpg?resize=770%2C513&quality=80",
+          "credit": "Photo: AFP"
         },
         {
           "title": "Iraq's top court backs Baghdad's move to take over Kurdish borders and oil fields",
@@ -82,7 +86,9 @@
           "date": "2026-11-25",
           "url": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields",
           "art": "pin",
-          "illustration": "<svg viewBox=\"0 0 240 150\"><circle class=\"f\" cx=\"120\" cy=\"75\" r=\"11\"/><path d=\"M20 110h200\"/><path d=\"M60 110V60M60 60h22M82 60l-10 20\"/><circle cx=\"60\" cy=\"52\" r=\"6\"/><path d=\"M130 110V70h40v40\"/><path d=\"M142 70V50h16v20\"/><path d=\"M100 30l30 0M120 20l10 10-10 10\" /><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"110\"/><polyline points=\"190,40 214,48 190,56\"/></svg>"
+          "illustration": "<svg viewBox=\"0 0 240 150\"><circle class=\"f\" cx=\"120\" cy=\"75\" r=\"11\"/><path d=\"M20 110h200\"/><path d=\"M60 110V60M60 60h22M82 60l-10 20\"/><circle cx=\"60\" cy=\"52\" r=\"6\"/><path d=\"M130 110V70h40v40\"/><path d=\"M142 70V50h16v20\"/><path d=\"M100 30l30 0M120 20l10 10-10 10\" /><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"110\"/><polyline points=\"190,40 214,48 190,56\"/></svg>",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0090b5-1795199157.jpg?resize=770%2C513&quality=80",
+          "credit": "Photo: Alaa Al-Marjani / Reuters"
         }
       ]
     }
