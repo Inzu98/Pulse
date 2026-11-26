@@ -336,8 +336,20 @@ async function renderSection(id, date) {
     ${editions.length > 1 ? `<section class="archive"><div class="rule-head"><h2 class="display">Past editions</h2></div><div class="chips">${chips}</div></section>` : ''}`;
 
   // cover photo that fails to load: keep the headline on a dark frame
+  // cover photo that fails to load: move the cover to the next story with a photo
   const coverImg = app.querySelector('img[data-cover]');
-  if (coverImg) coverImg.addEventListener('error', () => coverImg.remove(), { once: true });
+  if (coverImg) {
+    const backups = all.filter(it => it !== top && safeUrl(it.image));
+    coverImg.addEventListener('error', () => {
+      const next = backups.shift();
+      if (!next) { coverImg.remove(); return; }
+      const frame = coverImg.closest('.cover-story');
+      frame.querySelector('.cover-caption .num').textContent = pad2(next.n);
+      frame.querySelector('.cover-head').innerHTML = rich(next.title);
+      frame.querySelector('.cover-link').dataset.scroll = `story-${next.n}`;
+      coverImg.src = safeUrl(next.image);
+    });
+  }
 
   // broken story photo -> swap in the illustration
   app.querySelectorAll('img[data-art]').forEach(img => {

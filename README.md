@@ -73,6 +73,7 @@ Never edit anything outside `data/<id>/`.
   4. An `illustration`, only for something a photo can't show (a process, a comparison, a flow), and only as a literal scene a reader understands at a glance. Never abstract.
   5. Otherwise just the `art` icon.
 - Only link to the original image URL. Never download, copy or re-upload images, and never take images from image-search results. Skip photos that are graphic, violent, or show private individuals.
+- Check every image URL before you use it: `curl -s -o /dev/null -w '%{http_code} %{content_type}' '<image url>'` must print `200 image/...`. Many sites (for example VGC, Gematsu, TechCrunch) refuse to show their images on other sites and return 403. If the check fails, treat that photo as unavailable and go to the next option above.
 - `illustration` is SVG text: `<svg viewBox="0 0 240 150">…</svg>`, line art only (path, circle, ellipse, rect, line, polyline, polygon), no text, no colors or styles (the app draws the lines in white). Include exactly one accent `<circle class="f" r="11" …/>`, drawn first so the lines sit on top of it.
 - Stories are numbered automatically (01, 02, 03…) across the whole edition.
 - Always set `art` too: it is the fallback if a photo fails to load.
