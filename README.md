@@ -66,10 +66,16 @@ Never edit anything outside `data/<id>/`.
 - The first item of each group is shown large; put the item with the best photo first.
 - Add `"cover": true` to the one story the reader will care about most. It becomes the magazine cover of the section page (its photo, number and headline). Without it, the first story is used. The cover is always a photo, never an illustration: the cover story must have an `image` taken from that same article (its og:image), so it shows the actual story. If the story you'd pick has no usable photo, mark the best story that does.
 - The cover photo is not repeated below; there the cover story shows its `illustration`, or its `art` icon.
-- Each story gets one visual: a photo, an explainer illustration, or an icon. Use an icon when it already says what the story is about. When it doesn't, add an `illustration`.
-- `illustration` is SVG text: `<svg viewBox="0 0 240 150">…</svg>`, line art only (path, circle, ellipse, rect, line, polyline, polygon), no text, no colors or styles (the app draws the lines in white). Include exactly one accent `<circle class="f" r="11" …/>`, drawn first so the lines sit on top of it. Show what happens in the story, e.g. a building, an arrow, a signed document.
+- Each story gets one visual. Prefer a real photo. Try, in this order:
+  1. The linked article's own photo (its `og:image`).
+  2. The same story at another outlet that allows access: use that article's `og:image`, and set `url`, `source` and `date` to that article so the photo always matches the link.
+  3. A free-license photo of the people or place in the story from Wikimedia Commons (the `upload.wikimedia.org` file URL; `credit`: "Photo: <author> / Wikimedia Commons, <license>"), or a public-domain government photo. Only when it clearly shows who or what the story is about.
+  4. An `illustration`, only for something a photo can't show (a process, a comparison, a flow), and only as a literal scene a reader understands at a glance. Never abstract.
+  5. Otherwise just the `art` icon.
+- Only link to the original image URL. Never download, copy or re-upload images, and never take images from image-search results. Skip photos that are graphic, violent, or show private individuals.
+- `illustration` is SVG text: `<svg viewBox="0 0 240 150">…</svg>`, line art only (path, circle, ellipse, rect, line, polyline, polygon), no text, no colors or styles (the app draws the lines in white). Include exactly one accent `<circle class="f" r="11" …/>`, drawn first so the lines sit on top of it.
 - Stories are numbered automatically (01, 02, 03…) across the whole edition.
-- Photos are optional. Leave `image` out when there's no good photo; the app then shows the `art` illustration, which is often the cleaner choice.
+- Always set `art` too: it is the fallback if a photo fails to load.
 - Only `https://` links and images are shown. If an image fails to load, the app shows the illustration instead.
 - Never set `"sample": true` in a real edition.
 
