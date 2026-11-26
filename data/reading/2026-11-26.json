@@ -1,0 +1,104 @@
+{
+  "section": "reading",
+  "edition": "2026-11-26",
+  "brief": [
+    "Start with *Ways of Seeing*: a 176-page book that changes how you read every image.",
+    "Two quick branding reads: *The Brand Gap* and a short essay on what makes a symbol work.",
+    "A free study tests whether *AI* really makes designers more creative.",
+    "This week's money topic: how to *price* freelance projects.",
+    "A game-UI history and an EarthBound book for the gaming side of design."
+  ],
+  "groups": [
+    {
+      "name": "Books",
+      "intro": "Short, well regarded and on sale now.",
+      "items": [
+        {
+          "title": "Ways of Seeing, by John Berger",
+          "summary": "Based on the 1972 BBC series, this short book argues that how we look at images is shaped by history, money and habit. Seven essays, three made only of pictures, take apart ideas such as the nude, oil painting as property and the language of advertising. About 176 pages, in English.\n\nFor someone who makes images for a living, it is a toolkit for seeing what an image is really saying and who it is aimed at. You will look at ads, feeds and logos with sharper eyes, and explain your choices to clients with more confidence.",
+          "source": "Penguin Modern Classics",
+          "date": "1972-01-01",
+          "url": "https://www.penguin.co.uk/books/56465/ways-of-seeing/9780141035796",
+          "image": "https://cdn.penguin.co.uk/dam-assets/books/9780141035796/9780141035796-jacket-large.jpg",
+          "credit": "Cover: Penguin Books",
+          "art": "openbook",
+          "cover": true
+        },
+        {
+          "title": "The Brand Gap, by Marty Neumeier",
+          "summary": "A compact, illustrated guide to the gap between business strategy and the design that expresses it. Neumeier lays out five disciplines (differentiate, collaborate, innovate, validate, cultivate) and defines a brand as a person's gut feeling about a company, not the logo. Around 200 pages, in English.\n\nIt is a quick read you can finish in an evening, and a clear way to talk with clients about why branding is more than a visual identity. Useful for framing proposals and workshops.",
+          "source": "Peachpit / New Riders",
+          "date": "2005-07-01",
+          "url": "https://www.peachpit.com/store/brand-gap-revised-edition-9780321348104",
+          "image": "https://covers.openlibrary.org/b/isbn/9780321348104-L.jpg",
+          "credit": "Cover: Peachpit via Open Library",
+          "art": "bulb"
+        },
+        {
+          "title": "Show Your Work!, by Austin Kleon",
+          "summary": "Ten short chapters on sharing your process, not just finished pieces: be generous, tell small stories about your work, and let people find you. Illustrated and quick to read, about 224 pages, in English.\n\nA friendly manual for freelancers who dislike self-promotion. It turns social media from a sales chore into a habit of documenting your work, which is also good content for a portfolio.",
+          "source": "Workman Publishing",
+          "date": "2014-03-06",
+          "url": "https://www.hachettebookgroup.com/titles/austin-kleon/show-your-work/9780761178972/",
+          "image": "https://covers.openlibrary.org/b/isbn/9780761178972-L.jpg",
+          "credit": "Cover: Workman via Open Library",
+          "art": "book"
+        },
+        {
+          "title": "EarthBound, by Ken Baumann",
+          "summary": "The first Boss Fight Books title mixes memoir, game history and close reading of Nintendo's offbeat 1994 role-playing game, from its pop-art look to its strange humour. Roughly 190 pages, in English.\n\nIt shows how a game's visual style and tone can carry real feeling, and how to write seriously about games as culture. A good model for thinking about art direction in any medium.",
+          "source": "Boss Fight Books",
+          "date": "2014-01-01",
+          "url": "https://bossfightbooks.com/products/earthbound-by-ken-baumann",
+          "image": "https://covers.openlibrary.org/b/isbn/9781940535005-L.jpg",
+          "credit": "Cover: Boss Fight Books via Open Library",
+          "art": "controller"
+        }
+      ]
+    },
+    {
+      "name": "Free reads",
+      "intro": "Free to read online.",
+      "items": [
+        {
+          "title": "Thoughts on Design: Paul Rand on Beauty, Simplicity and Symbols, by Maria Popova",
+          "summary": "A short essay drawing on Paul Rand's classic book. Rand's view is that a symbol is judged by what it does in communicating, not by how it looks, and that simplicity helps but does not define a good mark. About 5 minutes, in English, free on The Marginalian.\n\nA compact reminder of what makes a logo work, handy before your next identity project or client conversation.",
+          "source": "The Marginalian",
+          "date": "2014-08-19",
+          "url": "https://www.themarginalian.org/2014/08/19/paul-rand-thoughts-on-design/",
+          "image": "https://www.themarginalian.org/wp-content/uploads/2014/08/Screen-Shot-2015-08-14-at-11.47.44-PM.png?fit=479%2C294&ssl=1",
+          "credit": "Image: The Marginalian",
+          "art": "star"
+        },
+        {
+          "title": "A Look Into Game UI: From 1960s to the Present, by Anna Shcherbinina",
+          "summary": "A tour of game interfaces from Spacewar! in 1962 through arcade, console and mobile eras, including the split between diegetic UI (inside the game world) and overlays. About 8 minutes, in English, free on 80 Level.\n\nA fast visual history of interface design under tight constraints, with ideas you can borrow for apps, social templates and any layout that must inform without getting in the way.",
+          "source": "80 Level",
+          "date": "2020-07-28",
+          "url": "https://80.lv/articles/a-look-into-games-ui-from-1960s-to-the-present/",
+          "image": "https://cdn.80.lv/api/upload/meta/13065/images/5f202599a4434/contain_1200x630.jpg",
+          "credit": "Image: 80 Level",
+          "art": "joystick"
+        },
+        {
+          "title": "The art of pricing freelance projects, by Tom Hirst",
+          "summary": "A practical guide to hourly, day, fixed, value-based and retainer pricing, arguing that no method fits every job and that perceived value and specialisation drive what you can charge. About 11 minutes, in English, free on DESK Magazine.\n\nThis week's rotating topic is money for freelancers. You will leave with a way to choose a pricing model per client and a better answer to the question of what you are worth to a project.",
+          "source": "DESK Magazine",
+          "date": "2020-07-21",
+          "url": "https://vanschneider.com/the-art-of-pricing-freelance-projects",
+          "image": "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w1200/wp-content/uploads/2020/07/art-of-freelancing-cover-image.png",
+          "credit": "Image: DESK Magazine",
+          "art": "coin"
+        },
+        {
+          "title": "Creativity in the Age of AI: Evaluating the Impact of Generative AI on Design Outputs and Designers' Creative Thinking, by Yue Fu and colleagues",
+          "summary": "An open-access study from University of Washington researchers in which designers made social media ads with and without generative AI. Experts rated AI-assisted work more creative and more unusual, but not better in visual appeal, brand fit or usefulness, and the tools did not clearly improve creative thinking overall. A research paper on arXiv, in English; the abstract reads in a few minutes.\n\nEvidence instead of hype on AI in design work. It helps you decide where AI actually earns a place in your process and what to say when clients ask.",
+          "source": "arXiv",
+          "date": "2024-10-31",
+          "url": "https://arxiv.org/abs/2411.00168",
+          "art": "spark"
+        }
+      ]
+    }
+  ]
+}
