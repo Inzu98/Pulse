@@ -1,36 +1,27 @@
 {
   "section": "daily",
-  "sample": true,
-  "edition": "2026-11-25",
+  "edition": "2026-11-26",
   "brief": [
-    "Sample line: the *one thing* worth knowing from Colombia today.",
-    "Sample line: a major vote in the US Congress and why it matters here.",
-    "Sample line: a regional trade deal moves forward in South America.",
-    "Sample line: Europe agrees on a new energy plan for the winter."
+    "Colombian forces ended a *hostage siege* at a Cartagena supermarket after about 15 hours; all hostages were freed.",
+    "Washington proposed new *tariffs* of up to 20% on 14 economies, after hearings in about two months.",
+    "A US congressional report says Colombia and Venezuela *appear* to be hitting the ELN, and sees a Venezuelan vote in 2027 or 2028.",
+    "Ukraine says it hit *five* Russian aircraft at an airbase; Moscow has not yet responded.",
+    "Israel's court signalled *doubts* about Netanyahu's corruption cases as the post-election standoff continues."
   ],
   "groups": [
     {
       "name": "Colombia",
       "items": [
         {
-          "title": "Sample headline: Congress debates the next budget",
-          "summary": "Sample first paragraph: Two short lines on what happened and *why it matters* to you. A real edition links to the full article. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "court",
+          "title": "All hostages freed after Cartagena supermarket siege",
+          "summary": "Colombian security forces ended a hostage-taking at an Éxito supermarket in Cartagena in the early hours of Wednesday, 25 November, after more than 15 hours. The siege began on the morning of Tuesday, 24 November. El Tiempo reports that all hostages were freed with no hostage injured, according to authorities, although the exact number is not consistent in its coverage (figures of 68 and 76 appear). One captor, named by the paper as Jailer Humberto Muñetón Zapata, 51, was killed, and two men from Medellín were captured. Sources told the paper about 30 commandos from the police and military took part.\n\nThe operation is a test of the security approach of President Abelardo De La Espriella, who took office in August and publicly praised the police and armed forces. A baker who was inside told the paper that one captor hit several people. Police are preparing to present the two detainees to a judge, so the motive and the way the captors organised themselves are likely to come out in the coming days.",
           "source": "El Tiempo",
           "date": "2026-11-25",
-          "url": "https://example.com/",
-          "image": "https://picsum.photos/seed/pulse-col1/1200/750",
-          "credit": "Photo: sample image",
-          "illustration": "<svg viewBox=\"0 0 240 150\"><circle class=\"f\" cx=\"72\" cy=\"75\" r=\"11\"/><circle cx=\"72\" cy=\"75\" r=\"40\"/><path d=\"M72 75V35M72 75l35 20M72 75l-32 24\"/><rect x=\"140\" y=\"28\" width=\"72\" height=\"36\" rx=\"10\"/><path d=\"M156 64l-6 12 14-12M154 46h44\"/><rect x=\"156\" y=\"84\" width=\"70\" height=\"36\" rx=\"10\"/><path d=\"M210 120l6 12-14-12M170 102h42\"/></svg>",
+          "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/las-5-claves-de-la-operacion-que-permitio-rescatar-a-los-secuestrados-en-el-exito-de-cartagena-3604282",
+          "image": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/25/6b06caba171d3.jpeg",
+          "credit": "Photo: El Tiempo",
+          "art": "shield",
           "cover": true
-        },
-        {
-          "title": "Sample headline: Peso holds steady against the dollar",
-          "summary": "Sample first paragraph: What moved the currency this week, in one or two plain sentences. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "coin",
-          "source": "Reuters",
-          "date": "2026-11-25",
-          "url": "https://example.com/"
         }
       ]
     },
@@ -38,21 +29,25 @@
       "name": "United States",
       "items": [
         {
-          "title": "Sample headline: Senate passes a spending bill",
-          "summary": "Sample first paragraph: The short version of the story and what changes next. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "ballot",
-          "source": "AP",
-          "date": "2026-11-24",
-          "url": "https://example.com/",
-          "illustration": "<svg viewBox=\"0 0 240 150\"><circle class=\"f\" cx=\"194\" cy=\"88\" r=\"11\"/><path d=\"M70 30v12M44 68a26 26 0 0 1 52 0\"/><rect x=\"38\" y=\"68\" width=\"64\" height=\"10\" rx=\"2\"/><path d=\"M46 78v32M58 78v32M70 78v32M82 78v32M94 78v32M32 110h76M26 120h88\"/><path d=\"M122 75h34M146 65l10 10-10 10\"/><rect x=\"168\" y=\"30\" width=\"54\" height=\"80\" rx=\"6\"/><path d=\"M180 46h30M180 58h30M180 70h18M184 88l8 8 14-16\"/></svg>"
-        },
+          "title": "US proposes new tariffs on China, EU, Japan and 11 other economies",
+          "summary": "The US Trade Representative, Jamieson Greer, named 14 economies for proposed tariff increases of up to 20%, including China, Japan and the European Union, according to El Tiempo. China's rate could reach 40% if last summer's trade-truce agreements fall apart. The legal basis is Section 301 of US trade law, and Washington argues that foreign government subsidies created industrial overcapacity that flooded markets with cheap goods and hurt US producers. Greer said most increases would be a few percentage points and often would not stack on existing tariffs. Mexico and Norway are excluded for now.\n\nNothing takes effect yet: hearings and public consultations must come first, which Greer expects to take about two months. The EU says it is not responsible for overcapacity and expects Washington to respect its existing trade deal. Greer said the measures fit existing bilateral deals, such as the 15% cap agreed with the EU, Japan, South Korea and Taiwan, and did not rule out targeted tariffs on Mexico. For Colombia the main thing to watch is indirect: prices, shipping costs and demand for exports if the major economies start a new round of trade friction.",
+          "source": "El Tiempo",
+          "date": "2026-11-25",
+          "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/administracion-trump-impone-nuevos-aranceles-a-china-la-union-europea-japon-y-otra-decena-de-paises-por-presunta-sobreproduccion-industrial-3604158",
+          "art": "coin"
+        }
+      ]
+    },
+    {
+      "name": "Latin America",
+      "items": [
         {
-          "title": "Sample headline: New tariffs on imported steel",
-          "summary": "Sample first paragraph: How the decision could reach Latin American exporters. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "ship",
-          "source": "BBC Mundo",
-          "date": "2026-11-24",
-          "url": "https://example.com/"
+          "title": "US Congress researchers: Colombia and Venezuela appear to be targeting the ELN",
+          "summary": "An update from the Congressional Research Service, published on 25 November, says the Colombian and Venezuelan armies appear to be attacking the ELN guerrilla group with US support, despite long mutual distrust, according to El Tiempo. The report does not say whether the two governments are coordinating. It says President Abelardo De La Espriella's government has stepped up its offensive against groups Washington calls terrorist since he took office in August, and that tensions with Bogotá could complicate things for Venezuela's interim president, Delcy Rodríguez.\n\nThe report also looks at Venezuela's political future, almost 11 months after the US captured Nicolás Maduro. Unnamed US officials speak of a presidential vote in late 2027 or early 2028. Opposition leader María Corina Machado wants it next year, Secretary of State Marco Rubio has said 2027 would be ideal, and Rodríguez says there will be elections with a renewed electoral council but has set no date. The group Foro Penal counted 321 political prisoners on 9 November. Today's feature explains how Venezuela got here.",
+          "source": "El Tiempo",
+          "date": "2026-11-25",
+          "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/colombia-y-venezuela-en-una-posible-ofensiva-conjunta-contra-el-eln-informe-del-congreso-de-ee-uu-revela-el-alcance-de-la-futura-cooperacion-3604283",
+          "art": "ballot"
         }
       ]
     },
@@ -60,47 +55,77 @@
       "name": "Europe",
       "items": [
         {
-          "title": "Sample headline: Leaders meet on winter energy",
-          "summary": "Sample first paragraph: Where the talks stand and what each side wants. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "bolt",
-          "source": "El País",
-          "date": "2026-11-24",
-          "url": "https://example.com/",
-          "image": "https://picsum.photos/seed/pulse-eu1/1200/750",
-          "credit": "Photo: sample image"
+          "title": "Ukraine says it hit five Russian aircraft at an airbase east of Moscow",
+          "summary": "Ukraine's General Staff said on 26 November that its forces struck the Savasleyka airbase in the Nizhny Novgorod region, damaging five aircraft: three MiG-31 jets, which Kyiv says are used to fire hypersonic missiles, and two Su-34 fighter-bombers. Reuters, which reported the claim, could not verify it, and Russia had not commented at the time of writing.\n\nThe strike is part of a Ukrainian campaign of long-range attacks. Defence Minister Yevhenii Khmara says Ukraine has hit 16 Russian ballistic-missile launchers over several months, and industry sources say drone attacks have cut Russian refinery processing by 45% since late October. Kyiv says it will stop hitting Russian energy targets only if Moscow does the same. Watch for a Russian response and for whether any energy-strike pause is discussed.",
+          "source": "Al Jazeera (citing Reuters)",
+          "date": "2026-11-26",
+          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
+          "art": "plane"
+        }
+      ]
+    },
+    {
+      "name": "Asia and the Middle East",
+      "items": [
+        {
+          "title": "Israeli court signals doubts about Netanyahu's corruption cases",
+          "summary": "At a hearing in Jerusalem on 25 November, judges in Benjamin Netanyahu's corruption trial suggested the prosecution faces difficulties. In the bribery case, Judge Rivka Friedman-Feldman said proving bribery faced considerable difficulties; in another case judges questioned whether the conduct was a crime, and in a third they recommended an agreement to end it. Attorney General Gali Baharav-Miara said she would consider the recommendations and was ready for either a verdict or a plea deal. Netanyahu, in a televised address, called the cases fabricated and said the trial must end immediately. He denies wrongdoing.\n\nNetanyahu, Israel's caretaker prime minister, is the first sitting premier to stand trial; the case opened in May 2020. October's election was inconclusive, and opposition leader Gadi Eisenkot has until 6 December, with a possible 14-day extension, to form a government. If he fails, Netanyahu gets a chance. Staying in office matters to Netanyahu because it affects his position in the trial.",
+          "source": "Al Jazeera",
+          "date": "2026-11-25",
+          "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case",
+          "art": "court"
+        },
+        {
+          "title": "Iraq's top court backs Baghdad's move to take over Kurdish borders and oil fields",
+          "summary": "Iraq's Federal Supreme Court ruled on 25 November that the federal government can deploy troops to the country's international borders, including in the Kurdish region, and oversee all border crossings, coordinating customs with regional and provincial authorities. It also said the federal oil ministry can oversee and audit oil and gas fields. The Kurdistan Regional Government called the move an assault on its constitutional rights and rejected military language and threats, while saying it is working with Baghdad against corruption and oil smuggling. Baghdad has not said how or when the takeover would happen.\n\nOn 24 November Prime Minister Ali al-Zaidi had ordered federal forces to take over Kurdish-run crossings. Iraqi state media, citing a federal intelligence report, says oil from Kirkuk and Sulaimaniyah is being smuggled to Iran and onward to Afghanistan. A week earlier he moved against the Iran-aligned militia Kataib Hezbollah over similar allegations. Analysts say the ruling strengthens him but will be hard to enforce against Kurdish forces and armed Shia militias.",
+          "source": "Al Jazeera",
+          "date": "2026-11-25",
+          "url": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields",
+          "art": "pin",
+          "illustration": "<svg viewBox=\"0 0 240 150\"><circle class=\"f\" cx=\"120\" cy=\"75\" r=\"11\"/><path d=\"M20 110h200\"/><path d=\"M60 110V60M60 60h22M82 60l-10 20\"/><circle cx=\"60\" cy=\"52\" r=\"6\"/><path d=\"M130 110V70h40v40\"/><path d=\"M142 70V50h16v20\"/><path d=\"M100 30l30 0M120 20l10 10-10 10\" /><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"110\"/><polyline points=\"190,40 214,48 190,56\"/></svg>"
         }
       ]
     }
   ],
   "feature": {
     "kicker": "Explain it from the start",
-    "title": "Sample explainer: how a long conflict began",
-    "art": "globe",
+    "title": "Venezuela: from Chávez to a post-Maduro government",
     "steps": [
-      "How it began, in one sentence.",
-      "The key turning points.",
-      "Where things stand today.",
-      "What each side wants.",
-      "What to watch next."
+      "How it began: Hugo Chávez won power in 1998 and began a socialist project funded by oil. Nicolás Maduro took over after Chávez died in 2013, as oil prices fell and the economy shrank.",
+      "Turning points: Years of economic collapse and mass emigration, then the disputed July 2024 election, which opposition and many governments said Maduro did not win, while his government claimed victory.",
+      "Where it stands: US forces entered Venezuela on 3 January 2026 and captured Maduro and his wife on narco-terrorism and other charges. Delcy Rodríguez, his vice president, now leads an interim government, and Washington and Caracas restored diplomatic ties on 5 March.",
+      "What each side wants: Washington wants cooperation on energy and security. Rodríguez says there will be elections with a renewed electoral council. Machado's opposition wants a vote next year. Rights groups want all political prisoners freed.",
+      "What to watch: whether an election date is set for 2027 or early 2028, the electoral council and court reforms, and the fate of the remaining political prisoners."
     ],
-    "url": "https://example.com/",
-    "source": "BBC"
+    "url": "https://www.cfr.org/article/guide-maduros-capture-and-venezuelas-uncertain-future",
+    "source": "CFR",
+    "art": "globe"
   },
   "recap": [
     {
       "label": "Colombia",
-      "line": "Budget debate continues in Congress.",
-      "art": "court"
+      "line": "Cartagena supermarket siege ends with all hostages freed.",
+      "art": "shield"
     },
     {
       "label": "United States",
-      "line": "Spending bill clears the Senate.",
+      "line": "New tariffs of up to 20% proposed on 14 economies.",
+      "art": "coin"
+    },
+    {
+      "label": "Latin America",
+      "line": "US report sees Venezuelan election in 2027 or 2028.",
       "art": "ballot"
     },
     {
       "label": "Europe",
-      "line": "Energy talks move forward.",
-      "art": "bolt"
+      "line": "Ukraine claims strike on five aircraft at Russian airbase.",
+      "art": "plane"
+    },
+    {
+      "label": "Asia and the Middle East",
+      "line": "Court doubts Netanyahu cases; Baghdad moves on Kurdish oil.",
+      "art": "court"
     }
   ]
 }
