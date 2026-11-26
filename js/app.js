@@ -359,6 +359,12 @@ async function renderSection(id, date) {
       const credit = box.nextElementSibling;
       if (credit && credit.classList.contains('credit')) credit.remove();
     }, { once: true });
+    // tall or square images (book covers, posters) are shown whole on a tinted panel instead of cropped
+    const fit = () => {
+      const box = img.parentElement;
+      if (box.classList.contains('media') && img.naturalWidth && img.naturalWidth / img.naturalHeight < 1.25) box.classList.add('is-tall');
+    };
+    if (img.complete) fit(); else img.addEventListener('load', fit, { once: true });
   });
 }
 

@@ -7,6 +7,8 @@
   --text-2: #C4C4CC;   /* 11.6:1 on black */
   --text-3: #93939C;   /* 6.6:1 on black, for meta only */
   --rule: #2A2A31;
+  --hair: rgba(255, 255, 255, .26); /* every divider line uses this, 1px */
+  --gap: 28px;                      /* space above and below every divider line */
   --brand: #3D5AFE;        /* the Pulse dot */
   --brand-light: #7C8FFF;  /* the dot on black pills */
   --icon: 96px;            /* one size for every section icon, so every accent circle matches */
@@ -86,7 +88,7 @@ img { display: block; max-width: 100%; }
   gap: 12px;
   margin-top: 16px;
   padding-top: 10px;
-  border-top: 1px solid var(--text);
+  border-top: 1px solid var(--hair);
 }
 .dateline p { margin: 0; }
 .today { font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--text-2); }
@@ -138,7 +140,7 @@ img { display: block; max-width: 100%; }
 .drop-dot { width: 6px; height: 8px; fill: var(--brand-light); }
 
 /* the week: which section lands which day */
-.week { margin-top: 36px; }
+.week { margin-top: var(--gap); }
 .days { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
 .day {
   display: flex;
@@ -172,9 +174,9 @@ img { display: block; max-width: 100%; }
   justify-content: space-between;
   align-items: baseline;
   gap: 12px;
-  margin: 0 0 14px;
-  padding-top: 10px;
-  border-top: 1px solid var(--text);
+  margin: 0 0 20px;
+  padding-top: calc(var(--gap) - 6px); /* the display font sits ~6px below its box top */
+  border-top: 1px solid var(--hair);
 }
 .rule-head h2 { font-size: 46px; margin: 0; color: var(--hi); white-space: nowrap; }
 .rule-head p { margin: 0; font-size: 14px; color: var(--text-3); text-align: right; }
@@ -279,7 +281,9 @@ img { display: block; max-width: 100%; }
 }
 .sample-note strong { color: var(--text); font-weight: 600; }
 
-.brief { margin: 32px 0 8px; }
+.brief { margin: var(--gap) 0 0; }
+.brief li:last-child { padding-bottom: 0; }
+.brief + .group, .sample-note + .brief { margin-top: var(--gap); }
 .brief ul { list-style: none; margin: 0; padding: 0; }
 .brief li {
   position: relative;
@@ -300,15 +304,16 @@ img { display: block; max-width: 100%; }
 }
 .em { font-family: var(--serif); font-style: italic; font-weight: 500; }
 
-.group { margin-top: 40px; }
+.group { margin-top: 0; }
+.brief + .group, .cover + .group, .sample-note + .group { margin-top: var(--gap); }
 .group-intro { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--text-2); margin: 0 0 16px; }
 
 /* numbered stories */
 /* every story: the same hairline above it and the same space on both sides of that line.
    Bottom padding is smaller because the 44px link already carries ~12px of space under its text. */
-.story { padding: 28px 0 16px; border-top: 1px solid var(--rule); scroll-margin-top: 72px; }
-.story:not(:has(.open)) { padding-bottom: 28px; }
-.rule-head + .story, .group-intro + .story { border-top: 0; padding-top: 4px; }
+.story { padding: var(--gap) 0 calc(var(--gap) - 12px); border-top: 1px solid var(--hair); scroll-margin-top: 72px; }
+.story:not(:has(.open)) { padding-bottom: var(--gap); }
+.rule-head + .story, .group-intro + .story { border-top: 0; padding-top: 0; }
 .story-head { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 12px; align-items: start; margin-bottom: 12px; }
 .story-head.with-thumb { grid-template-columns: 48px minmax(0, 1fr) 80px; }
 .num { font-size: 40px; line-height: .84; color: var(--hi); padding-top: 2px; }
@@ -324,6 +329,23 @@ img { display: block; max-width: 100%; }
   margin-bottom: 16px;
 }
 .story .media img { width: 100%; height: 100%; object-fit: cover; }
+/* book covers and posters: whole image, centered on a panel tinted with the section color */
+.story .media.is-tall {
+  position: relative;
+  background: color-mix(in srgb, var(--c1) 28%, var(--surface));
+}
+.story .media.is-tall img {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: calc(100% - 36px);
+  max-width: 80%;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .45);
+}
 .media.art-panel, .thumb.art-panel, .illus-panel { display: grid; place-items: center; background: var(--surface); --line: #FFFFFF; }
 .media.art-panel .art { width: 40%; height: auto; }
 .illus-panel .art { width: 92%; height: auto; }
@@ -363,7 +385,7 @@ img { display: block; max-width: 100%; }
 .open:active svg { transform: translate(2px, -2px); }
 
 .feature {
-  margin-top: 40px;
+  margin-top: 12px;
   padding: 22px;
   border-radius: var(--r-tile);
   background: var(--surface);
@@ -376,9 +398,9 @@ img { display: block; max-width: 100%; }
 .feature li { counter-increment: step; display: grid; grid-template-columns: 30px 1fr; padding: 0 0 12px; color: var(--text-2); }
 .feature li::before { content: counter(step); font-family: var(--display); font-weight: 900; font-size: 26px; line-height: 1.1; color: var(--hi); }
 
-.recap { margin-top: 40px; }
+.recap { margin-top: var(--gap); }
 .recap ul { list-style: none; margin: 0; padding: 0; }
-.recap li { display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid var(--rule); }
+.recap li { display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: center; padding: 12px 0; border-top: 1px solid var(--hair); }
 .recap li:first-child { border-top: 0; }
 .recap p { margin: 0; }
 .recap .mini { width: 44px; height: 44px; border-radius: 12px; background: var(--surface); display: grid; place-items: center; --line: #FFFFFF; }
@@ -387,7 +409,7 @@ img { display: block; max-width: 100%; }
 .recap b { font-weight: 600; }
 .recap span { color: var(--text-2); }
 
-.archive { margin-top: 44px; }
+.archive { margin-top: calc(var(--gap) - 12px); }
 .chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; scrollbar-width: none; margin: 0 calc(-1 * var(--gutter)); padding-left: var(--gutter); padding-right: var(--gutter); }
 .chips::-webkit-scrollbar { display: none; }
 .chip {
