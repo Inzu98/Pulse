@@ -160,37 +160,53 @@ function metaLine(item) {
   return bits.length ? `<p class="meta">${bits.join(' · ')}</p>` : '';
 }
 
-// Explainer illustrations arrive as SVG text in the data. Keep only plain shapes and geometry
-// attributes, so nothing in the data can run code or load anything.
+// Drawings arrive as SVG text in the data. Keep only plain shapes, text and safe attributes,
+// so nothing in the data can run code or load anything.
 const SVG_EL = new Set(['svg', 'g', 'path', 'circle', 'ellipse', 'rect', 'line', 'polyline', 'polygon']);
 const SVG_AT = new Set(['viewBox', 'd', 'cx', 'cy', 'r', 'rx', 'ry', 'x', 'y', 'width', 'height', 'x1', 'y1', 'x2', 'y2', 'points', 'transform', 'class']);
-function safeSvg(src) {
-  if (typeof src !== 'string' || !src.trim()) return '';
+// book covers may also use text, colors and the app's three fonts
+const COVER_EL = new Set([...SVG_EL, 'text', 'tspan']);
+const COVER_AT = new Set([...SVG_AT, 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin', 'opacity',
+  'font-family', 'font-size', 'font-weight', 'font-style', 'letter-spacing', 'text-anchor', 'dx', 'dy']);
+const COVER_FONTS = /^(Big Shoulders Display|General Sans|Gambetta)$/;
+function cleanSvg(src, els, ats, extraCheck) {
+  if (typeof src !== 'string' || !src.trim()) return null;
   try {
     const doc = new DOMParser().parseFromString(src, 'image/svg+xml');
     const root = doc.documentElement;
-    if (root.nodeName !== 'svg' || doc.getElementsByTagName('parsererror').length) return '';
+    if (root.nodeName !== 'svg' || doc.getElementsByTagName('parsererror').length) return null;
     const walk = el => {
       [...el.children].forEach(child => {
-        if (!SVG_EL.has(child.nodeName)) { child.remove(); return; }
+        if (!els.has(child.nodeName)) { child.remove(); return; }
         [...child.attributes].forEach(a => {
-          const ok = SVG_AT.has(a.name) && (a.name !== 'class' || /^(f|d)$/.test(a.value)) && !/[<>]|url\(|javascript:/i.test(a.value);
+          const ok = ats.has(a.name) && !/[<>]|url\(|javascript:|expression\(/i.test(a.value) && extraCheck(a);
           if (!ok) child.removeAttribute(a.name);
         });
         walk(child);
       });
     };
     walk(root);
-    const vb = /^[\d.\s-]+$/.test(root.getAttribute('viewBox') || '') ? root.getAttribute('viewBox') : '0 0 240 150';
-    const body = [...root.children].map(c => new XMLSerializer().serializeToString(c).replace(/ xmlns="[^"]*"/g, '')).join('');
-    return `<svg class="art illus" viewBox="${vb}" aria-hidden="true">${body}</svg>`;
-  } catch (e) { return ''; }
+    const vb = /^[\d.\s-]+$/.test(root.getAttribute('viewBox') || '') ? root.getAttribute('viewBox') : null;
+    const body = [...root.childNodes].filter(n => n.nodeType === 1)
+      .map(c => new XMLSerializer().serializeToString(c).replace(/ xmlns="[^"]*"/g, '')).join('');
+    return { vb, body };
+  } catch (e) { return null; }
+}
+function safeSvg(src) {
+  const r = cleanSvg(src, SVG_EL, SVG_AT, a => a.name !== 'class' || /^(f|d)$/.test(a.value));
+  return r ? `<svg class="art illus" viewBox="${r.vb || '0 0 240 150'}" aria-hidden="true">${r.body}</svg>` : '';
+}
+function safeCover(src) {
+  const r = cleanSvg(src, COVER_EL, COVER_AT, a => a.name !== 'font-family' || COVER_FONTS.test(a.value.replace(/['"]/g, '').trim()));
+  return r ? `<svg class="book-art" viewBox="${r.vb || '0 0 1600 1000'}" role="img" preserveAspectRatio="xMidYMid slice">${r.body}</svg>` : '';
 }
 
-// One visual per story: a photo, an explainer illustration, or the icon.
-// The cover story's photo is already on the cover, so below it gets the illustration or icon instead.
+// One visual per story. Books get their cover redrawn for the wide frame; otherwise photos run big
+// at full width, explainers run wide, and icons sit small on the right.
+// The cover story's photo is already on the cover, so below it never repeats.
 function storyVisual(item) {
-  // photos always run big at full width; icons always sit small on the right
+  const book = safeCover(item.bookCover);
+  if (book) return { wide: `<div class="media book-cover" aria-label="${esc(item.title)}">${book}</div>`, thumb: '' };
   const illus = safeSvg(item.illustration);
   const photo = !item.isCover && safeUrl(item.image);
   if (photo) {
@@ -359,12 +375,6 @@ async function renderSection(id, date) {
       const credit = box.nextElementSibling;
       if (credit && credit.classList.contains('credit')) credit.remove();
     }, { once: true });
-    // tall or square images (book covers, posters) are shown whole on a tinted panel instead of cropped
-    const fit = () => {
-      const box = img.parentElement;
-      if (box.classList.contains('media') && img.naturalWidth && img.naturalWidth / img.naturalHeight < 1.25) box.classList.add('is-tall');
-    };
-    if (img.complete) fit(); else img.addEventListener('load', fit, { once: true });
   });
 }
 

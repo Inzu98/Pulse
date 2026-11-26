@@ -329,23 +329,9 @@ img { display: block; max-width: 100%; }
   margin-bottom: 16px;
 }
 .story .media img { width: 100%; height: 100%; object-fit: cover; }
-/* book covers and posters: whole image, centered on a panel tinted with the section color */
-.story .media.is-tall {
-  position: relative;
-  background: color-mix(in srgb, var(--c1) 28%, var(--surface));
-}
-.story .media.is-tall img {
-  position: absolute;
-  top: 18px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: auto;
-  height: calc(100% - 36px);
-  max-width: 80%;
-  object-fit: contain;
-  border-radius: 4px;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, .45);
-}
+/* books: the cover redrawn for the wide frame */
+.story .media.book-cover { background: var(--surface); }
+.book-art { display: block; width: 100%; height: 100%; }
 .media.art-panel, .thumb.art-panel, .illus-panel { display: grid; place-items: center; background: var(--surface); --line: #FFFFFF; }
 .media.art-panel .art { width: 40%; height: auto; }
 .illus-panel .art { width: 92%; height: auto; }
