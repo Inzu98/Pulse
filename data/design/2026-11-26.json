@@ -1,0 +1,90 @@
+{
+  "section": "design",
+  "edition": "2026-11-26",
+  "brief": [
+    "Visa gets a standalone *V*, its own typeface and a sound.",
+    "Brazil's Caixa redraws its logo for the first time in almost 30 years, and keeps the *X*.",
+    "Figma adds native *3D* transforms, multi-image generation and an agent in FigJam and Slides.",
+    "A London artist turns 20 billboards into *maximalist* local collages.",
+    "Bogotá Design Festival is set for *April 27 to 30, 2027*."
+  ],
+  "groups": [
+    {
+      "name": "Brands and campaigns",
+      "items": [
+        {
+          "title": "Base Design gives Visa a standalone V, a custom typeface and a sound",
+          "summary": "Base Design has refreshed Visa's global identity after nearly two years of work, reported by It's Nice That on 24 November 2026. The wordmark and the core blue and yellow stay. New pieces: a standalone V symbol that carries the wordmark's wingtip, built for app icons, motion and some cards; Visa Sans, made with Displaay Type Foundry (six weights with italics, 115 languages, a 12-degree angle taken from the wordmark); a \"progress bar\" graphic device drawn from the bands of the original logo; extra colours; and a short sound, \"the ding\", for successful payments.\n\nThe lesson is restraint. Base Design's Min Lew says the goal was relevance, not recognition, so the team kept the equity and added tools for digital use. A designer can borrow two moves: keep one distinctive detail (the wingtip) exclusive to the logo and symbol, and give a system one simple device that behaves the same in print and in motion.",
+          "source": "It's Nice That",
+          "date": "2026-11-24",
+          "url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+          "image": "https://m.itsnicethat.com/original_images/16_PRESS_Visa.jpg?class=w1440",
+          "credit": "Image: Base Design / Visa, via It's Nice That",
+          "art": "swatches",
+          "cover": true
+        },
+        {
+          "title": "Caixa redraws its logo for the first time in almost 30 years",
+          "summary": "Brazil's state bank Caixa unveiled a new identity by Tátil Design on 9 November 2026, reviewed by Brand New on 18 November. The bank keeps its name and its famous X, but redraws the logotype in a unicase style that mixes capitals and lowercase. Tátil says the blue stands for lasting solidity and the orange for Brazil's diversity. The launch line is \"Vem realizar\", with a campaign by agency Alia, and the system covers more than 50 projects under one parent brand.\n\nThis is a good Latin American case of a rebrand that protects a 165-year-old equity while speaking to younger people. For designers: when one shape is the brand's strongest memory, redraw everything around it and leave it alone. Note that Brand New's full review is behind a paywall; the details above come from Brazilian trade coverage of the launch.",
+          "source": "Brand New",
+          "date": "2026-11-18",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_caixa_by_tatil_design.php",
+          "image": "https://www.underconsideration.com/brandnew/wp/wp-content/uploads/2026/11/caixa_logo_before_after.png",
+          "credit": "Image: Brand New / Tátil Design",
+          "art": "grid"
+        },
+        {
+          "title": "Fiona Quadri turns 20 London billboards into maximalist local collages",
+          "summary": "London artist Fiona Quadri's series \"Abundance of Being\" fills 20 billboard sites across the city, commissioned by media company Buildhollywood for its \"Your Space Or Mine\" programme. Each collage responds to its site: Brixton Market and Vortex Jazz Club, for example. She made site visits and observational drawings, then combined them in a dense, colourful \"mosaic\" style. It's Nice That reported it on 26 November 2026; no run dates were given.\n\nShe wants billboards to offer joy instead of a sales pitch. The takeaway is that local specifics beat generic polish: drawing from real places, shops and people gives a layout richness that stock imagery cannot, and works well for carousels and campaigns too.",
+          "source": "It's Nice That",
+          "date": "2026-11-26",
+          "url": "https://www.itsnicethat.com/articles/fiona-quadri-the-abundance-of-being-art-project-261126",
+          "image": "https://m.itsnicethat.com/original_images/jam_afternoon.png?class=w1440",
+          "credit": "Image: Fiona Quadri, via It's Nice That",
+          "art": "frame"
+        }
+      ]
+    },
+    {
+      "name": "Trends",
+      "items": [
+        {
+          "title": "Backslanted: a type series that leans the wrong way",
+          "summary": "Type designer Yury Ostromentsky (co-founder of CSTM Fonts) has made Backslanted, a series of typefaces that slant backward, covered by It's Nice That on 25 November 2026. It includes two sans styles, Regular and Super (the latter looks wind-blown), a spiky Script, and a Blackletter with a futuristic backward lean, plus alternates and ligatures. He made it as a response to a feeling of being overturned. The article gives no price or shop link.\n\nBackward slants feel unsettling, which is the point, and they are a useful tool for posters and social headlines that need tension. Use sparingly: one backslanted line against a calm layout does the work.",
+          "source": "It's Nice That",
+          "date": "2026-11-25",
+          "url": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126",
+          "image": "https://m.itsnicethat.com/original_images/yury-ostomentsky-graphic-design-itsnicethat-14.png?class=w1440",
+          "credit": "Image: Yury Ostromentsky, via It's Nice That",
+          "art": "bezier"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "items": [
+        {
+          "title": "Figma adds native 3D, multi-image generation and an agent for FigJam and Slides",
+          "summary": "Figma's release notes show a busy fortnight. On 12 November a 3D transform effect lets you rotate objects on three axes inside Figma and send designs to code via Dev Mode or the Figma MCP. On 18 November Make image and Edit image can produce two, four or six images from one prompt, or run one prompt across up to three models. On 23 November the Figma agent became generally available in FigJam and Slides for paid plans. Motion also gained physics-based springs and Lottie export previews on 10 November.\n\nFor a designer who builds carousels and decks, 3D transforms and multi-image generation save trips to other apps, and the agent in Slides could speed up presentation drafts. Check your plan first: the agent is paid-plan only, and the AI image tools may use credits.",
+          "source": "Figma Release Notes",
+          "date": "2026-11-23",
+          "url": "https://www.figma.com/release-notes/",
+          "art": "cursor"
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "items": [
+        {
+          "title": "Bogotá Design Festival returns April 27 to 30, 2027",
+          "summary": "The 13th Bogotá Design Festival is announced for 27 to 30 April 2027 in Bogotá, according to the festival's own site. The page names no venue and lists no ticket price. Past editions have been mostly free with prior registration, but nothing is confirmed for 2027. Registration is through the \"Inscribirse aquí\" section of bogotadesignfestival.co.\n\nBook the dates now and watch the site for the programme. Venue and price: no confirmed details found yet.",
+          "source": "Bogotá Design Festival",
+          "date": "2026-11-26",
+          "url": "https://www.bogotadesignfestival.co/",
+          "art": "calendar"
+        }
+      ]
+    }
+  ]
+}
