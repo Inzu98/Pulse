@@ -103,19 +103,19 @@ img { display: block; max-width: 100%; }
   flex-direction: column;
   justify-content: space-between;
   gap: 12px;
-  aspect-ratio: 1;
+  /* a min-height (not aspect-ratio) keeps tiles square but lets them grow on any browser, Safari included */
+  min-height: calc((min(100vw, 560px) - 2 * var(--gutter) - 12px) / 2);
   padding: var(--pad);
   border-radius: var(--r-tile);
   background: var(--c1);
   color: var(--ink);
   text-decoration: none;
-  overflow: clip; /* clip (not hidden) lets a tile grow if its text ever needs more room */
   container-type: inline-size;
   -webkit-tap-highlight-color: transparent;
   transition: transform .18s var(--ease-out);
 }
 .tile:active { transform: scale(.97); }
-.tile.wide { grid-column: span 2; aspect-ratio: 16 / 10; --pad: 22px; --tile-icon: 104px; }
+.tile.wide { grid-column: span 2; min-height: calc((min(100vw, 560px) - 2 * var(--gutter)) * .625); --pad: 22px; --tile-icon: 104px; }
 /* top row: New pill left, illustration right. Every icon is the same size, so every accent circle matches */
 .tile-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 0; }
 .tile-top .art { flex: none; width: var(--tile-icon); height: var(--tile-icon); margin: -8px -12px 0 0; }
