@@ -1,0 +1,81 @@
+{
+  "section": "ai",
+  "edition": "2026-11-26",
+  "brief": [
+    "Canva now lets Free and Pro users switch *generative AI* off in one setting.",
+    "Tidal will delete fully AI-made tracks from *December 9*, but keep AI-assisted music.",
+    "Pinterest adds a parental control for how much *AI content* teens see.",
+    "Meta's Muse assistant now lives inside Instagram *DMs* in five countries.",
+    "Try this week: a *moodboard* in Firefly Boards, and an AI-free Canva workflow for clients who ask."
+  ],
+  "groups": [
+    {
+      "name": "What’s new",
+      "items": [
+        {
+          "title": "Canva adds a switch to turn off its generative AI tools",
+          "cover": true,
+          "summary": "On November 19, Canva began rolling out two settings for Free and Pro users. The first, under Profile > Settings > Permissions > \"Enable generative AI features\", turns off tools such as Magic Expand, Magic Write, Magic Design, Magic Layers, Magic Edit, Dream Lab, Canva Code and AI Shapes, and stops image generation in Canva's AI chatbot. Tools that work on existing images, such as Background Remover and Magic Grab, stay on. The second, under Profile > Your Account > AI Personalization, makes library search favor human-made templates and elements. Canva says a small portion of its library is AI-generated and carries an AI label in its metadata, so this setting reduces AI content rather than removing it. The rollout is gradual, so the switches may not be visible yet.\n\nFor a designer, this is a sign that clients and audiences are asking for a clear line between made-by-hand and made-by-AI. If you build templates, social kits or pitch decks in Canva for clients who want no generative content, you can now guarantee it at the account level. It also helps if you want template searches that feel less generic. Note that PetaPixel frames the move as a response to AI's popularity problem; Canva has not published numbers on how much of its library is AI-made.",
+          "source": "PetaPixel",
+          "date": "2026-11-19",
+          "url": "https://petapixel.com/2026/11/19/canva-now-lets-users-turn-off-generative-ai-features/",
+          "image": "https://petapixel.com/assets/uploads/2026/11/Canva-on-Phone.jpg",
+          "credit": "Photo: PetaPixel",
+          "art": "wand"
+        },
+        {
+          "title": "Tidal will remove millions of fully AI-generated tracks starting December 9",
+          "summary": "Tidal says it will start deleting fully AI-generated songs on December 9 and expects to remove more than 29 million by the end of the year. By its own numbers, over 43% of tracks uploaded in the last 90 days were AI-made, and about 27 million tracks on the service (6.3%) are fully AI-generated, 96% of them with no streams. It will also bar distributors from delivering 100% AI tracks and reject submissions whose metadata says so. Songs made with AI assistance remain allowed. TechCrunch notes Bandcamp banned AI music earlier this year, Deezer is building a filter toggle, and Spotify and YouTube Music label rather than ban.\n\nThis is music, not design, but the same fight is coming to images: platforms are choosing between banning, labeling and letting users filter. The useful line Tidal drew is between fully generated and AI-assisted work. If you use AI in client work, keeping a record of what you made by hand and what was assisted is becoming good practice, and so is disclosing it where a platform asks.",
+          "source": "TechCrunch",
+          "date": "2026-11-24",
+          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/tidal-brand.jpg?w=720",
+          "credit": "Image: Tidal, via TechCrunch",
+          "art": "wave"
+        },
+        {
+          "title": "Pinterest lets parents limit how much AI content teens see",
+          "summary": "Pinterest expanded its parental controls on November 24, including a setting that lets parents control how much AI-generated content appears in a teen's experience. The update also covers autoplay, notification volume and personalized ads, and the Parental Controls page was redesigned. TechCrunch calls Pinterest one of the first major social platforms to offer this, and notes AI content still shows up in feeds even when its earlier \"see fewer AI Pins\" settings are on.\n\nPinterest is where many designers find references and where many brands publish. If your audience includes teens, expect less reach for obviously AI-generated Pins, and expect the platform's filters to improve. For moodboards, treat Pinterest results with care: AI images can pass as real references.",
+          "source": "TechCrunch",
+          "date": "2026-11-24",
+          "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/01/pinterest-header.jpg?w=1024",
+          "credit": "Image: Pinterest, via TechCrunch",
+          "art": "eye"
+        },
+        {
+          "title": "Meta's Muse assistant arrives in Instagram direct messages",
+          "summary": "Meta began rolling out Muse, its AI agent, inside Instagram DMs on November 24 for iOS and Android users in the U.S., Canada, Mexico, Japan and Singapore. You can share a post or reel with it and ask it to act, such as adding a cafe to an itinerary or finding a deal, or ask it to catch up on missed messages. It can also sort saved posts into Collections, with a prompt on save in the U.S. and Canada only. Meta says nothing is shared or sent without approval, and users can ask Muse to forget information or undo actions.\n\nFor social designers, the point is distribution: assistants are becoming a layer between your content and the viewer, summarizing and re-sorting posts. Clear captions, readable text on images and descriptive alt text make a post easier for an assistant to understand, though Meta hasn't said how Muse reads posts, so treat that as a reasonable guess, not a rule.",
+          "source": "TechCrunch",
+          "date": "2026-11-24",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "art": "chat"
+        }
+      ]
+    },
+    {
+      "name": "Use it in your work",
+      "intro": "Two things to try this week.",
+      "items": [
+        {
+          "title": "Build a brand moodboard in Firefly Boards, with the new Creative Agent",
+          "summary": "Adobe announced at MAX on November 10 that its Creative Agent is now available inside Firefly Boards, so you can develop moodboards, storyboards and concepts by describing what you want in conversation. Boards also lets you import your own images and files, and Adobe's help pages describe a Remix option to make variations from two or more selected images. Adobe says the agent is in beta, with Plan Mode that shows its plan before it runs, and that Firefly models are trained on licensed content; both are Adobe's claims, so check the terms before using output in client work.\n\nTry it: start a board for a brand project, drop in the client's logo, palette and three reference images you chose yourself, then ask for directions on typography mood and image style. Use the result as a conversation starter with the client, not a final. Cost: Adobe lists a free plan with limited daily generations and paid tiers from Standard up; prices vary by region, and I could not confirm which features need a paid plan, so check Adobe's plans page.",
+          "source": "Adobe",
+          "date": "2026-11-10",
+          "url": "https://news.adobe.com/news/2026/11/adobe-firefly-expands",
+          "image": "https://news.adobe.com/news/2026/11/media_1be983d78cf64b14905c05379432c9a51f63f93b1.jpg?width=1200&format=pjpg&optimize=medium",
+          "credit": "Image: Adobe",
+          "art": "swatches"
+        },
+        {
+          "title": "Set up an AI-free Canva workflow for clients who ask for it",
+          "summary": "Canva's new account setting turns off its generative tools while leaving Background Remover and Magic Grab on. Canva's help page covers both settings. Free and paid accounts can use the switch; I couldn't confirm which plan includes each remaining tool, so check yours.\n\nTry it: switch generative AI off, turn on the setting that shows less AI content in search, then build a social carousel from a human-made template, your own photos and your own type choices. Use Magic Grab and Background Remover for cutouts. Keep a short note in the project file that says no generative AI was used, which you can show a client or a platform that asks. The switch is reversible, so you can flip it back for projects where AI is welcome.",
+          "source": "Canva Help Center",
+          "date": "2026-11-19",
+          "url": "https://www.canva.com/help/manage-ai-features/",
+          "art": "cursor"
+        }
+      ]
+    }
+  ]
+}
