@@ -1,63 +1,117 @@
 {
   "section": "gaming",
-  "sample": true,
-  "edition": "2026-11-24",
+  "edition": "2026-11-26",
   "brief": [
-    "Sample line: the *biggest release* of the week.",
-    "Sample line: a console price change.",
-    "Sample line: an indie hit worth trying."
+    "*GTA 6* is out; early sales are an analyst estimate of about 17 million copies.",
+    "The Witcher 4 will launch on *every platform* at once, in a 2028 window.",
+    "Ubisoft cuts 166 jobs and Capcom sets an *end date* for Exoprimal.",
+    "Team Cherry shows its Silksong DLC plans on *Friday*.",
+    "The CS2 *Singapore Major* runs to December 13."
   ],
   "groups": [
     {
-      "name": "Last week",
+      "name": "Big news",
       "items": [
         {
-          "title": "Sample headline: A big open-world sequel gets a date",
-          "summary": "Sample first paragraph: Two lines on the trailer and the release window. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "controller",
-          "source": "IGN",
-          "date": "2026-11-20",
-          "url": "https://example.com/",
-          "image": "https://picsum.photos/seed/pulse-g1/1200/750",
-          "credit": "Photo: sample image"
-        },
-        {
-          "title": "Sample headline: Handheld update adds new features",
-          "summary": "Sample first paragraph: What changes for players and when it arrives. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "handheld",
-          "source": "The Verge",
+          "title": "GTA 6 is out, and an analyst puts early sales near 17 million copies",
+          "summary": "Grand Theft Auto 6 launched this week on PlayStation 5 and Xbox Series X|S. Analyst firm Sensor Tower estimates about 17 million copies sold for more than $1.65 billion as of its November 18 update. Rockstar and Take-Two have not published any official sales figure yet, so treat the number as an estimate.\n\nTake-Two's CEO said before launch that pre-orders were running far above expectations, and the company has promised more detail after launch. For comparison, GTA 5 passed $800 million on its first day in 2013. Watch for Take-Two's official first numbers, which will show how far the estimate was off.",
+          "source": "GGRecon",
           "date": "2026-11-19",
-          "url": "https://example.com/"
+          "url": "https://www.ggrecon.com/articles/gta-6-17-million-sales-sensor-tower/",
+          "image": "https://www.ggrecon.com/media/kk5f5cyg/gta-6-17-million-sales-sensor-tower.jpg",
+          "credit": "Image: GGRecon",
+          "art": "chartUp",
+          "cover": true
         },
         {
-          "title": "Sample headline: Esports final breaks viewing records",
-          "summary": "Sample first paragraph: Who won and why people tuned in. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "trophy",
-          "source": "Polygon",
-          "date": "2026-11-18",
-          "url": "https://example.com/"
+          "title": "The Witcher 4 will launch on Xbox, PC and PS5 at the same time",
+          "summary": "CD Projekt Red joint CEO Michał Nowakowski said The Witcher 4 and the studio's other upcoming games will stay multiplatform, with PS5, Xbox Series X|S and PC launching together. He ruled out a timed exclusive. There is still no release date, only a 2028 window.\n\nThe question came up because CDPR signed a marketing deal with Sony, similar to the one Rockstar had for GTA 6. CDPR says the deal is about promotion, not exclusivity. The game is also moving to Unreal Engine in partnership with Epic. Nowakowski did not mention Switch 2.",
+          "source": "VGC",
+          "date": "2026-11-25",
+          "url": "https://www.videogameschronicle.com/news/no-one-gets-left-behind-cdpr-says-the-witcher-4-will-launch-on-xbox-day-one-despite-sony-agreement/",
+          "image": "https://www.videogameschronicle.com/files/2026/11/The-Witcher-4.jpg",
+          "credit": "Image: CD Projekt Red via VGC",
+          "art": "controller"
+        },
+        {
+          "title": "Ubisoft cuts 166 jobs in Montréal and Québec City",
+          "summary": "Ubisoft confirmed on November 19 that it is cutting 166 positions at its Montréal and Québec City studios, just under 4% of its Canadian workforce. The company says it is aligning team sizes with current production priorities. Affected staff get severance, extended health benefits and career transition help.\n\nVGC links the cuts mostly to cancelled or rescoped projects. Kotaku reports Ubisoft's headcount has fallen by nearly 1,100 over the last two quarters. Watch the company's next earnings report for more on its plans.",
+          "source": "Gematsu",
+          "date": "2026-11-19",
+          "url": "https://www.gematsu.com/2026/11/ubisoft-lays-off-166-staff-at-montreal-and-quebec-studios",
+          "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Ubisoft-Layoffs_11-19-26.jpg",
+          "credit": "Image: Ubisoft via Gematsu",
+          "art": "city"
+        },
+        {
+          "title": "Capcom will shut down Exoprimal servers in September 2027",
+          "summary": "Capcom announced the end of service for Exoprimal, its dinosaur shooter that launched in July 2023 and arrived day one on Game Pass. Premium passes and microtransactions stopped selling on November 24. The game and its DLC leave consoles and PC on March 30, 2027, and servers close on September 29, 2027 at 8:00 PM PDT.\n\nPeople who already own it can keep downloading and playing until the servers go dark. It is another reminder that live-service games can disappear, which matters for anyone who buys one for the long term.",
+          "source": "Kotaku",
+          "date": "2026-11-25",
+          "url": "https://kotaku.com/capcoms-live-service-dino-shooter-is-going-offline-forever-just-four-years-later-2001000218",
+          "image": "https://kotaku.com/app/uploads/2026/11/goodnight-1200x675.jpg",
+          "credit": "Image: Capcom via Kotaku",
+          "art": "pixel"
+        },
+        {
+          "title": "EA adds an AI-generated John Motson to EA Sports FC 27",
+          "summary": "EA is adding an AI-built version of the late commentator John Motson, who died in 2023, to EA Sports FC 27 from November 26. His voice comes from old recording sessions plus generative AI, and players can pick it as an option next to the existing commentary teams. Motson voiced the series from FIFA 96 to FIFA 06.\n\nHis widow and son gave permission and EA paid the family, with the amount undisclosed. The campaign group Save Our Voice Now objects because Motson could not consent himself. Expect this debate to return as more studios clone voices of people who have died.",
+          "source": "VGC",
+          "date": "2026-11-25",
+          "url": "https://www.videogameschronicle.com/news/ea-sports-fc-27-is-adding-an-ai-generated-john-motson-to-its-commentary-team-three-years-after-his-death/",
+          "image": "https://www.videogameschronicle.com/files/2026/11/ea-fc-motson.jpg",
+          "credit": "Image: EA via VGC",
+          "art": "headset"
         }
       ]
     },
     {
       "name": "Coming soon",
-      "intro": "Release dates for the next three months.",
       "items": [
         {
-          "title": "Sample headline: Co-op shooter launches in December",
-          "summary": "Sample first paragraph: Platforms, price and the one feature people are excited about. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "calendar",
-          "source": "GameSpot",
-          "date": "2026-11-21",
-          "url": "https://example.com/"
+          "title": "Team Cherry sets a Silksong showcase for Friday, November 27",
+          "summary": "Team Cherry will host a live stream called Cherry Time on Friday, November 27, with an update on Sea of Sorrow, the free expansion for Hollow Knight: Silksong, plus other announcements. The studio has not said what will be shown and gave no start time in the announcement. Sea of Sorrow is free for owners of the base game and was given a 2026 window.\n\nA release date, a surprise release or a delay are all possible, but none is confirmed. For designers, Silksong is a good study in how a strict limited palette and hand-drawn character silhouettes keep a dense world readable.",
+          "source": "VGC",
+          "date": "2026-11-25",
+          "url": "https://www.videogameschronicle.com/news/team-cherry-will-share-an-update-on-silksongs-dlc-on-november-27/",
+          "image": "https://www.videogameschronicle.com/files/2025/12/hollow-knight-silksong-sea-of-sorrow.jpg",
+          "credit": "Image: Team Cherry via VGC",
+          "art": "play"
         },
         {
-          "title": "Sample headline: VR puzzle game arrives in January",
-          "summary": "Sample first paragraph: A short note on why it stands out. A real edition uses this space for the facts in plain language, with names, numbers and dates, checked in two or three sources.\n\nSample second paragraph: a real edition explains the background here, who is involved, what led to this moment and what to watch next, so you understand the story well enough to decide whether to open the full article.",
-          "art": "headset",
-          "source": "UploadVR",
-          "date": "2026-11-21",
-          "url": "https://example.com/"
+          "title": "Digimon Alysion, a free-to-play mobile game, is live worldwide",
+          "summary": "Bandai's Digimon Alysion launched on November 25 on iOS and Android in 183 countries and regions. It is free to play and passed 450,000 pre-registrations before launch.\n\nIt is a mobile spin-off, so check regional availability and the in-app purchases before you commit. Watch how Bandai supports it in its first live-service weeks.",
+          "source": "Gematsu",
+          "date": "2026-11-25",
+          "url": "https://www.gematsu.com/2026/11/digimon-alysion-now-available",
+          "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Digimon-Alysion-Launch_11-25-26_001.jpg",
+          "credit": "Image: Bandai via Gematsu",
+          "art": "handheld"
+        }
+      ]
+    },
+    {
+      "name": "Esports and community",
+      "items": [
+        {
+          "title": "PGL Major Singapore is under way, with Brazilian teams in the field",
+          "summary": "The CS2 PGL Major Singapore began on November 24 with 32 teams and runs to December 13, with playoffs on December 10 to 13 at the Singapore Indoor Stadium. It is the first Major in Southeast Asia. The format is three Swiss stages, then an eight-team single-elimination playoff with a best-of-five grand final.\n\nBrazilian organisations MIBR, FURIA and Imperial Esports are among the entrants, with MIBR and FURIA invited to later stages. The Americas have nine slots in total. Watch Stage 2 starting November 28 and the playoffs.",
+          "source": "Strafe",
+          "date": "2026-11-24",
+          "url": "https://www.strafe.com/news/read/cs2-singapore-major-2026-format-teams-schedule-and-opening-matches/",
+          "image": "https://strafe-uploads-prod.s3.us-east-1.amazonaws.com/Singapore_major_2_2434d90d96.jpg",
+          "credit": "Image: PGL via Strafe",
+          "art": "trophy"
+        },
+        {
+          "title": "A GTA 6 writer leaves social media after online harassment",
+          "summary": "Alexa D'Agostino, a writer on GTA 6, deleted an X account after a wave of harassment and misinformation, VGC reports. Critics blamed her for the inclusion of Lucia as a playable character. After she left, some of the abuse was redirected at an unrelated woman with the same name.\n\nVGC notes similar abuse aimed at other developers and actors, such as Tati Gabrielle and Laura Bailey. It shows the cost developers can face when a big game becomes a culture-war target.",
+          "source": "VGC",
+          "date": "2026-11-25",
+          "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-writer-leaves-social-media-following-online-harassment/",
+          "image": "https://www.videogameschronicle.com/files/2026/11/Jason_Lucia_Lock_And_Load_landscape.jpg",
+          "credit": "Image: Rockstar Games via VGC",
+          "art": "megaphone"
         }
       ]
     }
