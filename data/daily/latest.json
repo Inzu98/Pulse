@@ -1,27 +1,36 @@
 {
   "section": "daily",
-  "edition": "2026-11-26",
+  "edition": "2026-11-27",
   "brief": [
-    "Colombian forces ended a *hostage siege* at a Cartagena supermarket after about 15 hours; all hostages were freed.",
-    "Washington proposed new *tariffs* of up to 20% on 14 economies, after hearings in about two months.",
-    "A US congressional report says Colombia and Venezuela *appear* to be hitting the ELN, and sees a Venezuelan vote in 2027 or 2028.",
-    "Ukraine says it hit *five* Russian aircraft at an airbase; Moscow has not yet responded.",
-    "Israel's court signalled *doubts* about Netanyahu's corruption cases as the post-election standoff continues."
+    "Iran's drones hit Kuwait while Washington tells citizens to *leave Iran*.",
+    "The ELN killed a woman it kidnapped in August; Colombia's president promises a *response*.",
+    "EU leaders fight over a *record budget* and a loan for Ukraine.",
+    "Ebola in Congo passes *12,000* confirmed cases.",
+    "Argentina is officially in a *technical recession*."
   ],
   "groups": [
     {
       "name": "Colombia",
       "items": [
         {
-          "title": "All hostages freed after Cartagena supermarket siege",
-          "summary": "Colombian security forces ended a hostage-taking at an Éxito supermarket in Cartagena in the early hours of Wednesday, 25 November, after more than 15 hours. The siege began on the morning of Tuesday, 24 November. El Tiempo reports that all hostages were freed with no hostage injured, according to authorities, although the exact number is not consistent in its coverage (figures of 68 and 76 appear). One captor, named by the paper as Jailer Humberto Muñetón Zapata, 51, was killed, and two men from Medellín were captured. Sources told the paper about 30 commandos from the police and military took part.\n\nThe operation is a test of the security approach of President Abelardo De La Espriella, who took office in August and publicly praised the police and armed forces. A baker who was inside told the paper that one captor hit several people. Police are preparing to present the two detainees to a judge, so the motive and the way the captors organised themselves are likely to come out in the coming days.",
-          "source": "El Tiempo",
-          "date": "2026-11-25",
-          "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/las-5-claves-de-la-operacion-que-permitio-rescatar-a-los-secuestrados-en-el-exito-de-cartagena-3604282",
-          "image": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/25/6b06caba171d3.jpeg",
-          "credit": "Photo: El Tiempo",
-          "art": "shield",
-          "cover": true
+          "title": "ELN kidnap victim Anyi Jácome found dead in Norte de Santander",
+          "summary": "Campesinos found a body on a roadside in rural Ábrego, Norte de Santander, on Thursday, 26 November. Relatives identified it as Anyi Jácome, who was kidnapped by the ELN on 16 August (the Defensoría places it a day later) along with three police officers on the road between Cúcuta and Ocaña. Medicina Legal still has to confirm identity and cause of death. President Abelardo de la Espriella called the killing a crime that \"will not go unpunished\", ordered troops and police to Catatumbo and demanded the release of the three officers still held.\n\nThe ELN claimed the abduction and said the officers had links to a FARC dissident front, and it made accusations against Jácome. Her family, a mother of a four-year-old girl, rejects them and says she belonged to no armed group. The Defensoría del Pueblo condemned the killing and asked for the officers' immediate, unconditional release. Watch for the forensic result and whether the officers are freed.",
+          "source": "Infobae",
+          "date": "2026-11-27",
+          "url": "https://www.infobae.com/colombia/2026/11/27/abelardo-de-la-espriella-lamento-la-muerte-de-anyi-jacome-que-fue-secuestrada-por-el-eln-el-16-de-agosto-no-quedara-impune/",
+          "image": "https://www.infobae.com/resizer/v2/S4ITR2C7EJE5NBBHONDNJS5KVE.jpg?auth=becf13041ccae1990bdc47454043fa43372704571839c442f07bb4b61e41173e&smart=true&width=1200&height=630&quality=85",
+          "credit": "Photo: EFE / Policía Nacional via Infobae",
+          "art": "shield"
+        },
+        {
+          "title": "Minimum wage talks move forward after productivity data",
+          "summary": "On Thursday, 26 November, the government, business groups and unions met for the first session on productivity, the figure that feeds into the 2027 minimum wage. DANE's preliminary third-quarter data show labour productivity per hour worked up 2.24%, while productivity per employed person fell 0.98%. Labour Minister Natalia López Fuentes said the meeting was not about percentages, only about agreeing the productivity base.\n\nThe unions' central, the CUT, says it will present a wage proposal on 10 December. The raise usually decides how much a worker's pay and many prices (rent, fees, some services) will change next year, so it matters to freelancers too. Earlier reports mention 15 December as the first deadline for a deal.",
+          "source": "Infobae",
+          "date": "2026-11-26",
+          "url": "https://www.infobae.com/colombia/2026/11/26/aumento-del-salario-minimo-esta-cerca-de-definirse-tras-el-dato-de-productividad-del-dane-hubo-reunion-clave-entre-gobierno-empresas-y-trabajadores/",
+          "image": "https://www.infobae.com/resizer/v2/5D6PTUMXVZHL7OY6I37I5AO2DU.jpeg?auth=1e8f513c61e0372ea386936fd3c4305280656589ebbf68e6a6ac30b5d7bfc7ba&smart=true&width=1200&height=630&quality=85",
+          "credit": "Photo: Infobae",
+          "art": "coin"
         }
       ]
     },
@@ -29,12 +38,14 @@
       "name": "United States",
       "items": [
         {
-          "title": "US proposes new tariffs on China, EU, Japan and 11 other economies",
-          "summary": "The US Trade Representative, Jamieson Greer, named 14 economies for proposed tariff increases of up to 20%, including China, Japan and the European Union, according to El Tiempo. China's rate could reach 40% if last summer's trade-truce agreements fall apart. The legal basis is Section 301 of US trade law, and Washington argues that foreign government subsidies created industrial overcapacity that flooded markets with cheap goods and hurt US producers. Greer said most increases would be a few percentage points and often would not stack on existing tariffs. Mexico and Norway are excluded for now.\n\nNothing takes effect yet: hearings and public consultations must come first, which Greer expects to take about two months. The EU says it is not responsible for overcapacity and expects Washington to respect its existing trade deal. Greer said the measures fit existing bilateral deals, such as the 15% cap agreed with the EU, Japan, South Korea and Taiwan, and did not rule out targeted tariffs on Mexico. For Colombia the main thing to watch is indirect: prices, shipping costs and demand for exports if the major economies start a new round of trade friction.",
-          "source": "El Tiempo",
-          "date": "2026-11-25",
-          "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/administracion-trump-impone-nuevos-aranceles-a-china-la-union-europea-japon-y-otra-decena-de-paises-por-presunta-sobreproduccion-industrial-3604158",
-          "art": "ship"
+          "title": "Thanksgiving storms flood both US coasts and knock out power",
+          "summary": "Storms hit the East and West coasts on Thanksgiving, Thursday 26 November. More than 600,000 homes and businesses lost power by the afternoon, mostly on the East Coast. All of New Jersey was under a state of emergency, with some of the worst flooding in memory in towns like Avalon. Macy's postponed its Manhattan parade until Saturday because of wind. On the West Coast, king tides and waves tore down part of a pier in Pacifica, California.\n\nThe National Weather Service warned of airport disruption in the east through Friday morning, and coastal flood warnings remain on the West Coast. Heavy snow was also forecast around St. Louis, with up to 33 cm.",
+          "source": "Euronews",
+          "date": "2026-11-26",
+          "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+          "image": "https://images.euronews.com/articles/stories/10/01/01/67/1200x675_cmsv2_6bc04b8e-7230-52a7-abea-9f24b3e0de26-10010167.jpg",
+          "credit": "Photo: Euronews",
+          "art": "drop"
         }
       ]
     },
@@ -42,12 +53,14 @@
       "name": "Latin America",
       "items": [
         {
-          "title": "US Congress researchers: Colombia and Venezuela appear to be targeting the ELN",
-          "summary": "An update from the Congressional Research Service, published on 25 November, says the Colombian and Venezuelan armies appear to be attacking the ELN guerrilla group with US support, despite long mutual distrust, according to El Tiempo. The report does not say whether the two governments are coordinating. It says President Abelardo De La Espriella's government has stepped up its offensive against groups Washington calls terrorist since he took office in August, and that tensions with Bogotá could complicate things for Venezuela's interim president, Delcy Rodríguez.\n\nThe report also looks at Venezuela's political future, almost 11 months after the US captured Nicolás Maduro. Unnamed US officials speak of a presidential vote in late 2027 or early 2028. Opposition leader María Corina Machado wants it next year, Secretary of State Marco Rubio has said 2027 would be ideal, and Rodríguez says there will be elections with a renewed electoral council but has set no date. The group Foro Penal counted 321 political prisoners on 9 November. Today's feature explains how Venezuela got here.",
-          "source": "El Tiempo",
-          "date": "2026-11-25",
-          "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/colombia-y-venezuela-en-una-posible-ofensiva-conjunta-contra-el-eln-informe-del-congreso-de-ee-uu-revela-el-alcance-de-la-futura-cooperacion-3604283",
-          "art": "doc"
+          "title": "Argentina enters a technical recession",
+          "summary": "Argentina's economy shrank 1.8% between July and September, after a 1% fall in the second quarter, according to the Indec activity indicator. Two straight quarterly drops are the usual definition of a technical recession. Consumption is weak, personal loans cost about 64% a year, unemployment hit 7.9% in the second quarter, and inflation is forecast near 31% for 2026. The government has asked for caution before using the word recession; economists say the data are clear.\n\nPresident Javier Milei's earlier gains, such as lower inflation than in 2023 and a fiscal surplus, still stand, but the recovery he promised is not showing up in daily life. Final GDP figures are due on 16 December.",
+          "source": "Euronews",
+          "date": "2026-11-26",
+          "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains",
+          "image": "https://images.euronews.com/articles/stories/10/00/99/94/1200x675_cmsv2_c0cd8f44-3ea7-5646-8bfb-4012bd3d4dee-10009994.jpg",
+          "credit": "Photo: Euronews",
+          "art": "chartDown"
         }
       ]
     },
@@ -55,14 +68,34 @@
       "name": "Europe",
       "items": [
         {
-          "title": "Ukraine says it hit five Russian aircraft at an airbase east of Moscow",
-          "summary": "Ukraine's General Staff said on 26 November that its forces struck the Savasleyka airbase in the Nizhny Novgorod region, damaging five aircraft: three MiG-31 jets, which Kyiv says are used to fire hypersonic missiles, and two Su-34 fighter-bombers. Reuters, which reported the claim, could not verify it, and Russia had not commented at the time of writing.\n\nThe strike is part of a Ukrainian campaign of long-range attacks. Defence Minister Yevhenii Khmara says Ukraine has hit 16 Russian ballistic-missile launchers over several months, and industry sources say drone attacks have cut Russian refinery processing by 45% since late October. Kyiv says it will stop hitting Russian energy targets only if Moscow does the same. Watch for a Russian response and for whether any energy-strike pause is discussed.",
-          "source": "Al Jazeera (citing Reuters)",
+          "title": "EU leaders clash over a record budget and a loan for Ukraine",
+          "summary": "EU leaders met in Brussels on 26 November to argue over the 2028-2034 budget. Council President António Costa has proposed cutting the original plan by €204 billion, and nobody is happy. Austria, Belgium, Denmark, Finland, the Netherlands, Sweden and Germany want deeper cuts to farm and cohesion funds. A group of 17 mostly southern and eastern states wants to protect them. Separately, the Commission proposes a €45 billion loan to cover about two-thirds of a €70 billion gap in Ukraine's 2027 budget. Slovakia, Czechia, Hungary and Bulgaria do not want to take part, though Bulgaria now says it is ready to join.\n\nGerman Chancellor Friedrich Merz has threatened to veto the budget unless all 27 states agree on Ukraine support. Slovak PM Robert Fico calls that blackmail. A final deal is aimed for December, and delays could collide with France's 2027 presidential election.",
+          "source": "Euronews",
           "date": "2026-11-26",
-          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
-          "art": "plane",
-          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-06-15T152617Z_1851412768_RC2CQ49SS6FD_RTRMADP_3_RUSSIA-AIRPLANE-CRASH-1795653630.jpg?resize=770%2C513&quality=80",
-          "credit": "Photo: Reuters (file photo of a Tu-22M3 bomber)"
+          "url": "https://www.euronews.com/2026/11/26/eu-budget-and-ukraine-aid-headed-for-collision-at-turbulent-summit",
+          "image": "https://images.euronews.com/articles/stories/10/00/61/91/1200x675_cmsv2_2b27bc73-8805-55c6-b303-17d9d1c4cc5e-10006191.jpg",
+          "credit": "Photo: Euronews",
+          "art": "coin"
+        },
+        {
+          "title": "Russia fires missiles and drones at Ukraine; Kyiv hits Russian energy sites",
+          "summary": "Russia hit Ukraine with ballistic missiles and 113 drones overnight into Thursday, 26 November. Ukraine's air defence shot down or neutralised 87 targets. At least three people were killed in Kharkiv, and seven were wounded in Kyiv. Ukrainian drones hit a power plant and a chemical plant in Stavropol, the Kuibyshev refinery in Samara and a pipeline station in Bashkortostan. Russia's Defence Ministry says it destroyed 343 Ukrainian drones; Euronews could not verify that figure.\n\nBoth sides now strike each other's energy and industry as winter begins. Separately, the two countries swapped war dead: 250 bodies to Ukraine and 22 to Russia, according to RBC citing a Russian lawmaker. The Kremlin has not committed to broad peace talks.",
+          "source": "Euronews",
+          "date": "2026-11-26",
+          "url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three",
+          "image": "https://images.euronews.com/articles/stories/10/00/93/73/1200x675_cmsv2_6fc35b74-9921-5372-89ce-8026b6d8f770-10009373.jpg",
+          "credit": "Photo: Euronews",
+          "art": "plane"
+        },
+        {
+          "title": "Eurozone leaders back Spain's Hernández de Cos to lead the ECB",
+          "summary": "Eurozone leaders gave majority support on 26 November to Pablo Hernández de Cos, 55, head of the Bank for International Settlements, to succeed Christine Lagarde as president of the European Central Bank. He would be the first Spaniard in the job. Lagarde said on 29 October she will leave on 7 February 2027.\n\nThe formal appointment is expected in December. Economists quoted by Euronews see him as a pragmatic centrist who will broadly keep Lagarde's course. The ECB sets interest rates for the euro, which affects loans and prices across Europe.",
+          "source": "Euronews",
+          "date": "2026-11-26",
+          "url": "https://www.euronews.com/2026/11/26/eurozone-leaders-back-hernandez-de-cos-to-succeed-lagarde-at-ecb",
+          "image": "https://images.euronews.com/articles/stories/10/00/94/13/1200x675_cmsv2_ed7bd85b-5bb7-5641-8a1c-d7105a86adf9-10009413.jpg",
+          "credit": "Photo: Euronews",
+          "art": "coin"
         }
       ]
     },
@@ -70,68 +103,78 @@
       "name": "Asia and the Middle East",
       "items": [
         {
-          "title": "Israeli court signals doubts about Netanyahu's corruption cases",
-          "summary": "At a hearing in Jerusalem on 25 November, judges in Benjamin Netanyahu's corruption trial suggested the prosecution faces difficulties. In the bribery case, Judge Rivka Friedman-Feldman said proving bribery faced considerable difficulties; in another case judges questioned whether the conduct was a crime, and in a third they recommended an agreement to end it. Attorney General Gali Baharav-Miara said she would consider the recommendations and was ready for either a verdict or a plea deal. Netanyahu, in a televised address, called the cases fabricated and said the trial must end immediately. He denies wrongdoing.\n\nNetanyahu, Israel's caretaker prime minister, is the first sitting premier to stand trial; the case opened in May 2020. October's election was inconclusive, and opposition leader Gadi Eisenkot has until 6 December, with a possible 14-day extension, to form a government. If he fails, Netanyahu gets a chance. Staying in office matters to Netanyahu because it affects his position in the trial.",
-          "source": "Al Jazeera",
-          "date": "2026-11-25",
-          "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case",
-          "art": "court",
-          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b072e2c3fac-1795632684.jpg?resize=770%2C513&quality=80",
-          "credit": "Photo: AFP"
-        },
+          "title": "Iranian drones hit Kuwait as the US tells citizens to leave Iran",
+          "summary": "Kuwait's military said \"a number of hostile\" Iranian drones were intercepted on Thursday, 26 November, and that falling debris injured four people. Italy's foreign ministry said two Italians working for German defence firm Rheinmetall died. Kuwait's defence ministry blamed Iran. Iran's embassy in Rome \"categorically\" rejected responsibility and blamed US and Israeli aggression. Flights between Europe, the Gulf and Asia were rerouted around Kuwaiti airspace.\n\nOn 25 November the US Virtual Embassy in Iran told American citizens to leave Iran immediately, warning that hostilities could escalate fast. It said Iran attacked US assets in Bahrain and Kuwait, and that a Houthi strike on a Riyadh tower wounded 11 people, per Saudi Civil Defence. The war began in late February 2026. The US and Iran are also in a standoff over the Strait of Hormuz, a key oil route. Watch for more Gulf attacks and for Qatar's effort to revive talks.",
+          "source": "Euronews",
+          "date": "2026-11-26",
+          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+          "image": "https://images.euronews.com/articles/stories/10/00/96/94/1200x675_cmsv2_fa3c62fc-42f2-57a0-9dbc-8a89c9865556-10009694.jpg",
+          "credit": "Photo: Euronews",
+          "art": "plane",
+          "cover": true
+        }
+      ]
+    },
+    {
+      "name": "Africa",
+      "items": [
         {
-          "title": "Iraq's top court backs Baghdad's move to take over Kurdish borders and oil fields",
-          "summary": "Iraq's Federal Supreme Court ruled on 25 November that the federal government can deploy troops to the country's international borders, including in the Kurdish region, and oversee all border crossings, coordinating customs with regional and provincial authorities. It also said the federal oil ministry can oversee and audit oil and gas fields. The Kurdistan Regional Government called the move an assault on its constitutional rights and rejected military language and threats, while saying it is working with Baghdad against corruption and oil smuggling. Baghdad has not said how or when the takeover would happen.\n\nOn 24 November Prime Minister Ali al-Zaidi had ordered federal forces to take over Kurdish-run crossings. Iraqi state media, citing a federal intelligence report, says oil from Kirkuk and Sulaimaniyah is being smuggled to Iran and onward to Afghanistan. A week earlier he moved against the Iran-aligned militia Kataib Hezbollah over similar allegations. Analysts say the ruling strengthens him but will be hard to enforce against Kurdish forces and armed Shia militias.",
-          "source": "Al Jazeera",
-          "date": "2026-11-25",
-          "url": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields",
-          "art": "pin",
-          "illustration": "<svg viewBox=\"0 0 240 150\"><circle class=\"f\" cx=\"120\" cy=\"75\" r=\"11\"/><path d=\"M20 110h200\"/><path d=\"M60 110V60M60 60h22M82 60l-10 20\"/><circle cx=\"60\" cy=\"52\" r=\"6\"/><path d=\"M130 110V70h40v40\"/><path d=\"M142 70V50h16v20\"/><path d=\"M100 30l30 0M120 20l10 10-10 10\" /><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"110\"/><polyline points=\"190,40 214,48 190,56\"/></svg>",
-          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0090b5-1795199157.jpg?resize=770%2C513&quality=80",
-          "credit": "Photo: Alaa Al-Marjani / Reuters"
+          "title": "Ebola in Congo passes 12,000 confirmed cases",
+          "summary": "Congo's health ministry reports 12,021 confirmed Ebola cases in the east of the country, nearly half of them fatal. Euronews, citing AP, calls it the fastest-growing Ebola outbreak in history and the deadliest of Congo's 17. It is caused by the Bundibugyo virus, which has no approved vaccine or treatment, and was declared in May. The 2014-2016 West Africa outbreak killed about 11,000 people.\n\nFighting between the army and rebels near Bunia, in Ituri province, has blocked teams from some communities, according to the WHO. The WHO backed trials of two new vaccines in November. Watch for whether the fighting eases and whether the trials show results.",
+          "source": "Euronews",
+          "date": "2026-11-26",
+          "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
+          "image": "https://images.euronews.com/articles/stories/10/00/92/56/1200x675_cmsv2_1d1a9775-bb65-5081-ab51-16608f8c49a5-10009256.jpg",
+          "credit": "Photo: Euronews",
+          "art": "pulse"
         }
       ]
     }
   ],
   "feature": {
     "kicker": "Explain it from the start",
-    "title": "Venezuela: from Chávez to a post-Maduro government",
+    "title": "Russia and Ukraine: the war in five steps",
     "steps": [
-      "How it began: Hugo Chávez won power in 1998 and began a socialist project funded by oil. Nicolás Maduro took over after Chávez died in 2013, as oil prices fell and the economy shrank.",
-      "Turning points: Years of economic collapse and mass emigration, then the disputed July 2024 election, which opposition and many governments said Maduro did not win, while his government claimed victory.",
-      "Where it stands: US forces entered Venezuela on 3 January 2026 and captured Maduro and his wife on narco-terrorism and other charges. Delcy Rodríguez, his vice president, now leads an interim government, and Washington and Caracas restored diplomatic ties on 5 March.",
-      "What each side wants: Washington wants cooperation on energy and security. Rodríguez says there will be elections with a renewed electoral council. Machado's opposition wants a vote next year. Rights groups want all political prisoners freed.",
-      "What to watch: whether an election date is set for 2027 or early 2028, the electoral council and court reforms, and the fate of the remaining political prisoners."
+      "How it began: Ukraine became independent in 1991. In 2014, after protests ousted a pro-Russian president, Russia took Crimea and backed separatists in the east, in Donetsk and Luhansk.",
+      "Turning points: On 24 February 2022 Russia launched a full-scale invasion. Ukraine pushed Russian forces back from Kyiv and later retook territory around Kharkiv and Kherson. After that the front line slowed into a long war of attrition.",
+      "Where it stands: The war continues. Russia fires missiles and drones at Ukrainian cities, and Ukraine strikes Russian refineries and power plants. The two sides still swap war dead, but the Kremlin has not committed to broad peace talks. Ukraine faces a €70 billion gap in its 2027 budget.",
+      "What each side wants: Moscow says it wants security guarantees and control of the territory it claims. Kyiv wants Russian forces out, its borders restored and firm guarantees against a new attack. European governments are split on how much to pay.",
+      "What to watch: The EU's €45 billion Ukraine loan and the budget fight, whether the Kremlin accepts real talks, and attacks on energy infrastructure this winter."
     ],
-    "url": "https://www.cfr.org/article/guide-maduros-capture-and-venezuelas-uncertain-future",
+    "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
     "source": "CFR",
     "art": "globe"
   },
   "recap": [
     {
       "label": "Colombia",
-      "line": "Cartagena supermarket siege ends with all hostages freed.",
+      "line": "ELN kidnap victim found dead; wage talks begin.",
       "art": "shield"
     },
     {
       "label": "United States",
-      "line": "New tariffs of up to 20% proposed on 14 economies.",
-      "art": "coin"
+      "line": "Thanksgiving storms flood both coasts, 600,000 lose power.",
+      "art": "drop"
     },
     {
       "label": "Latin America",
-      "line": "US report sees Venezuelan election in 2027 or 2028.",
-      "art": "ballot"
+      "line": "Argentina enters technical recession.",
+      "art": "chartDown"
     },
     {
       "label": "Europe",
-      "line": "Ukraine claims strike on five aircraft at Russian airbase.",
-      "art": "plane"
+      "line": "EU leaders split over budget and Ukraine loan.",
+      "art": "coin"
     },
     {
       "label": "Asia and the Middle East",
-      "line": "Court doubts Netanyahu cases; Baghdad moves on Kurdish oil.",
-      "art": "court"
+      "line": "Iranian drones hit Kuwait; US urges citizens to leave Iran.",
+      "art": "plane"
+    },
+    {
+      "label": "Africa",
+      "line": "Congo Ebola outbreak passes 12,000 confirmed cases.",
+      "art": "pulse"
     }
   ]
 }
